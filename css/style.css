@@ -1,26 +1,26 @@
 body {
 	font-size: 15px;
 	color: #464646;
-	font-weight: normal;
+	font-weight: 400;
 	line-height: 30px;
 	letter-spacing: 0.001em;
-	font-family: open sans, sans-serif;
+	font-family: "open sans", "sans-serif";
 }
 
 h1, h2 {
 	font-size: 47px;
-	color: black;
-	font-weight: bolder;
-	line-height: 120%;
+	color: #000000;
+	font-weight: 700;
+	line-height: 1.2em;
 	letter-spacing: 0.001em;
-	font-family: gilroy, sans-serif;
+	font-family: "gilroy", "sans-serif";
 }
 
 h3 {
 	font-size: 18px;
-	color: black;
-	font-weight: bolder;
-	line-height: 120%;
+	color: #000000;
+	font-weight: 700;
+	line-height: 1.2em;
 	letter-spacing: 0.001em;
-	font-family: gilroy, sans-serif;
+	font-family: "gilroy", "sans-serif";
 }

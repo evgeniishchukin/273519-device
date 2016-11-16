@@ -23,7 +23,7 @@
           <button class="button-search" type="submit" value="search">Найти</button>
         </form>
         <!--Группа III - Действия пользователя-->
-        <a class="header-action" href="#">Войти</a>
+        <a class="header-action header-action-user" href="#">Валентин Петухов</a>
         <a class="header-action" href="#">Сравнить</a>
         <a class="header-action" href="#">Корзина</a>
         <!--Группа IV - Навигация-->
@@ -56,92 +56,94 @@
 
 
 		<!--ОСНОВОЕ СОДЕРЖАНИЕ СТРАНИЦЫ "КАТАЛОГ" -->
-		<main  class="page-catalog container-main clearfix">
+		<main  class="page-catalog">
+      <div class="container-main clearfix">
+  			<!--Группа I - Хлебные крошки-->
+  			<div class="breadcrumbs container-header">
+          <h1>Моноподы для селфи</h1>
+  				<a class="breadcrumbs-page" href="#">Главная</a>
+  				<a class="breadcrumbs-page" href="#">Каталог товаров</a>
+  				<a class="breadcrumbs-page" href="#">Моноподы для селфи</a>
+  			</div>
 
-			<!--Группа I - Хлебные крошки-->
-			<div class="breadcrumbs container-header">
-        <h1>Моноподы для селфи</h1>
-				<a class="breadcrumbs-page" href="#">Главная</a>
-				<a class="breadcrumbs-page" href="#">Каталог товаров</a>
-				<a class="breadcrumbs-page" href="#">Моноподы для селфи</a>
-			</div>
-
-			<!--Группа II - Блок фильтра-->
-			<section class="filter">
-        <span class="filter-name">Фильтр:</span>
-				<form class="filter-form" action="#" method="get">
-					<!--Подгруппа II.I - Выбор цены-->
-					<div class="filter-price">
-						<h3>Стоимость</h3>
-            <div class="filter-range">
-              <div class="range-controls">
-                <div class="range-scale">
-                  <div class="range-bar"></div>
+  			<!--Группа II - Блок фильтра-->
+  			<section class="filter">
+          <span class="filter-name">Фильтр:</span>
+  				<form class="filter-form" action="#" method="get">
+  					<!--Подгруппа II.I - Выбор цены-->
+  					<div class="filter-price">
+  						<h3>Стоимость</h3>
+              <div class="filter-range">
+                <div class="range-controls">
+                  <div class="range-scale">
+                    <div class="range-bar"></div>
+                  </div>
+                  <div class="range-toggle toggle-min"></div>
+                  <div class="range-toggle toggle-max"></div>
                 </div>
-                <div class="range-toggle toggle-min"></div>
-                <div class="range-toggle toggle-max"></div>
-              </div>
-				    </div>
-            <span class="min-price">от 0</span>
-            <span class="max-price">до 5000</span>
-          </div>
-					<!--Подгруппа II.II - Выбор цвета-->
-					<div class="filter-color">
-						<h3>Цвет</h3>
-						<label class="color-checkbox" for="color_black">
-              <input type="checkbox" name="color_black" id="color_black" value="black" checked>
-              <span class="checkbox-indicator"></span>
-						  Черный
-            </label><Br>
-						<label class="color-checkbox"  for="color_white">
-              <input type="checkbox" name="color_white" id="color_white"  value="white">
-						  <span class="checkbox-indicator"></span>
-              Белый
-            </label><Br>
-						<label class="color-checkbox"  for="color_darkblue">
-              <input type="checkbox" name="color_darkblue" id="color_darkblue"  value="darkblue" checked>
-						  <span class="checkbox-indicator"></span>
-              Синий
-            </label><Br>
-						<label class="color-checkbox"  for="color_red">
-              <input type="checkbox" name="color_red" id="color_red"  value="red" checked>
-						  <span class="checkbox-indicator"></span>
-              Красный
-            </label><Br>
-						<label class="color-checkbox"  for="color_pink">
-              <input type="checkbox" name="color_pink" id="color_pink"  value="pink">
-              <span class="checkbox-indicator"></span>
-						  Розовый
-            </label>
-					</div>
-					<!--Подгруппа II.III - Наличие блютус-->
-					<div class="filter-bluetooth">
-						<h3>Bluetooth</h3>
-            <label class="bluetooth-radio" for="bluetooth">
-              <input type="radio" name="bluetooth" id="bluetooth" value="bluetooth">
-						  <span class="radio-indicator"></span>
-              Есть
-            </label><Br>
-						<label class="bluetooth-radio" for="nobluetooth">
-              <input type="radio" name="bluetooth" id="nobluetooth" value="nobluetooth">
-              <span class="radio-indicator"></span>
-						  Нет
-            </label>
-					</div>
-					<!--Подгруппа II.IV - Кнопка фильтра-->
-					<button class="filter-show" type="submit" value="show">Показать</button>
-				</form>
-			</section>
+  				    </div>
+              <span class="min-price">от 0</span>
+              <span class="max-price">до 5000</span>
+            </div>
+  					<!--Подгруппа II.II - Выбор цвета-->
+  					<div class="filter-color">
+  						<h3>Цвет</h3>
+  						<label class="color-label" for="color_black">
+                <input class="color-checkbox" type="checkbox" name="color_black" id="color_black" value="black" checked>
+                <span class="checkbox-indicator"></span>
+  						  Черный
+              </label><Br>
+  						<label class="color-label"  for="color_white">
+                <input class="color-checkbox" type="checkbox" name="color_white" id="color_white"  value="white">
+  						  <span class="checkbox-indicator"></span>
+                Белый
+              </label><Br>
+  						<label class="color-label"  for="color_darkblue">
+                <input class="color-checkbox" type="checkbox" name="color_darkblue" id="color_darkblue"  value="darkblue" checked>
+  						  <span class="checkbox-indicator"></span>
+                Синий
+              </label><Br>
+  						<label class="color-label"  for="color_red">
+                <input class="color-checkbox" type="checkbox" name="color_red" id="color_red"  value="red" checked>
+  						  <span class="checkbox-indicator"></span>
+                Красный
+              </label><Br>
+  						<label class="color-label"  for="color_pink">
+                <input class="color-checkbox" type="checkbox" name="color_pink" id="color_pink"  value="pink">
+                <span class="checkbox-indicator"></span>
+  						  Розовый
+              </label>
+  					</div>
+  					<!--Подгруппа II.III - Наличие блютус-->
+  					<div class="filter-bluetooth">
+  						<h3>Bluetooth</h3>
+              <label class="bluetooth-label" for="bluetooth">
+                <input class="bluetooth-radio" type="radio" name="bluetooth" id="bluetooth" value="bluetooth" checked>
+  						  <span class="radio-indicator"></span>
+                Есть
+              </label><Br>
+  						<label class="bluetooth-label" for="nobluetooth">
+                <input class="bluetooth-radio" type="radio" name="bluetooth" id="nobluetooth" value="nobluetooth">
+                <span class="radio-indicator"></span>
+  						  Нет
+              </label>
+  					</div>
+  					<!--Подгруппа II.IV - Кнопка фильтра-->
+  					<button class="filter-show" type="submit" value="show">Показать</button>
+  				</form>
+			  </section>
 
 
 			<!--Группа III - Блок блок сортировки-->
   			<section class="sorting">
   				<!--Подгруппа III.I - Типы сортировки-->
           <ul class="sorting-type">
-            <li>Сортировка:</li>
-            <li><a class="sorting-action" href="#">По цене</a></li>
-            <li><a class="sorting-action" href="#">По типу</a></li>
-            <li><a class="sorting-action" href="#">По популярности</a></li>
+            <li class="sorting-list">Сортировка:</li>
+            <li class="sorting-list"><a class="sorting-action" href="#">По цене</a></li>
+            <li class="sorting-list"><a class="sorting-action" href="#">По типу</a></li>
+            <li class="sorting-list"><a class="sorting-action" href="#">По популярности</a></li>
+            <li class="sorting-list"><a class="sorting-arrow sorting-arrow-up" href="#">По возрастанию</a></li>
+            <li class="sorting-list"><a class="sorting-arrow sorting-arrow-down" href="#">По убыванию</a></li>
           </ul>
           <!--Подгруппа III.II - Элементы сортировки-->
   				<div class="sorting-items clearfix">
@@ -149,6 +151,8 @@
     					<a href="#">
     						<div class="item-image">
     							<img src="img/item-1.jpg" width="360" height="380" alt="Любительская селфи-палка">
+                  <div class="button-action">В корзину</div>
+                  <div class="button-action2">Добавить к сравнению</div>
     						</div>
     						<div class="item-text clearfix">
     							<h3 class="item-name">Любительская селфи-палка</h3>
@@ -160,6 +164,8 @@
     					<a href="#">
     						<div class="item-image">
     							<img src="img/item-2.jpg" width="360" height="380" alt="Профессиональная селфи-палка">
+                  <div class="button-action">В корзину</div>
+                  <div class="button-action2">Добавить к сравнению</div>
     						</div>
     						<div class="item-text">
     							<h3 class="item-name">Профессиональная<br> селфи-палка</h3>
@@ -171,6 +177,8 @@
     					<a href="#">
     						<div class="item-image">
     							<img src="img/item-3.jpg" width="360" height="380" alt="Непотопляемая селфи-палка">
+                  <div class="button-action">В корзину</div>
+                  <div class="button-action2">Добавить к сравнению</div>
     						</div>
     						<div class="item-text">
     							<h3 class="item-name">Непотопляемая селфи-палка</h3>
@@ -182,6 +190,8 @@
     					<a href="#">
     						<div class="item-image">
     							<img src="img/item-4.jpg" width="360" height="380" alt="Селфи-палка Следуй за мной">
+                  <div class="button-action">В корзину</div>
+                  <div class="button-action2">Добавить к сравнению</div>
     						</div>
     						<div class="item-text">
     							<h3 class="item-name">Селфи-палка "Следуй за мной"</h3>
@@ -193,14 +203,15 @@
     			<!--Подгруппа III.III - Пагинатор-->
   				<div class="paginator">
   					<ul class="paginator-actions">
-  						<li><a href="#">Назад</a></li>
-  						<li><a href="#">1</a></li>
-  						<li><a href="#">2</a></li>
-  						<li><a href="#">3</a></li>
-  						<li><a href="#">Вперед</a></li>
+  						<li class="paginator-list"><a class="paginator-link" href="#">Назад</a></li>
+  						<li class="paginator-list"><a class="paginator-link" href="#">1</a></li>
+  						<li class="paginator-list"><a class="paginator-link" href="#">2</a></li>
+  						<li class="paginator-list"><a class="paginator-link" href="#">3</a></li>
+  						<li class="paginator-list"><a class="paginator-link" href="#">Вперед</a></li>
   					</ul>
   				</div>
         </section>
+      </div>
 		</main>
 
 

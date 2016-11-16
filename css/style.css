@@ -54,120 +54,6 @@ button {
 
 
 
-	/*---------------------------------------------------------------------------------------*/
-	/*ДОПОЛНИТЕЛЬНЫЕ ФУНКЦИОНАЛЬНЫЕ КЛАССЫ*/
-	/*---------------------------------------------------------------------------------------*/
-
-	/*I  группа - контейнеры для выравнивания------------------------------------------------*/
-	.container-main {
-		margin-right: auto;
-		margin-left: auto;
-
-		width: 1160px;
-	}
-
-	.container-header {
-		margin-right: auto;
-		margin-left: auto;
-
-		width: 1040px;
-	}
-
-
-	/*II группа - Псевдораспорка-------------------------------------------------------------*/
-	.clearfix:after {
-		content: "";
-
-		display: table;
-
-		clear: both;
-	}
-
-
-	/*III группа - Внутренняя кнопка изображения---------------------------------------------*/
-	.button-action {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		margin-top: -11px;
-		margin-left: -100px;
-
-		padding-top: 8px;
-		padding-bottom: 8px;
-		width: 200px;
-		height: 22px;
-
-		font-family: "gilroy", sans-serif;
-		font-size: 18px;
-		font-weight: 700;
-		line-height: 1.2em;
-		letter-spacing: 0.2em;
-		text-transform: uppercase;
-		text-align: center;
-
-		opacity: 0;
-		z-index: 1;
-
-		transition: opacity 0.3s,
-								background-color 0.3s,
-								color 0.3s;
-	}
-
-	.button-action::before {
-		content: "";
-		position: absolute;
-		left: 0;
-		margin-top: 6px;
-
-		width: 200px;
-		height: 8px;
-
-		background-color: #f0c52e;
-
-		z-index: -1;
-	}
-
-	.button-action:hover {
-		background-color: #f0c52e;
-	}
-
-	.button-action:active {
-		color: #bd9b24;
-	}
-
-	/*IV группа - Вторая внутрення кнопка изображения ---------------------------------------*/
-	.button-action2 {
-		position: absolute;
-		top: 63%;
-		left: 50%;
-		margin-top: -11px;
-		margin-left: -100px;
-
-		width: 200px;
-		height: 22px;
-
-		font-size: 13px;
-		line-height: 1em;
-		color: #a1a1a1;
-		text-align: center;
-
-		opacity: 0;
-		z-index: 1;
-
-		transition: opacity 0.3s,
-								color 0.3s;
-	}
-
-	.button-action2:hover {
-		color: #000000;
-	}
-
-	.button-action2:active {
-		color: #dcdcdc;
-	}
-
-
-
 /*---------------------------------------------------------------------------------------*/
 /*ХЕДЕР*/
 /*---------------------------------------------------------------------------------------*/
@@ -552,10 +438,9 @@ button {
 .slider::before {
 	content: "";
 	position: absolute;
-	left: -30px;
 
 	width: 1160px;
-	min-height: 112px;
+	min-height: 114px;
 
 	background-color: #f7e296;
 }
@@ -563,8 +448,8 @@ button {
 .slider::after {
 	content: "";
 	position: absolute;
-	top: 38px;
-	right: 430px;
+	top: 39px;
+	right: 400px;
 
 	width: 100px;
 	height: 7px;
@@ -580,7 +465,7 @@ button {
 .slider-controls {
 	position: absolute;
 	top: 319px;
-	left: 970px;
+	left: 1000px;
 
 	z-index: 2;
 }
@@ -643,8 +528,8 @@ button {
 /*Подгруппа I.II.I - Текстовая информация слайдов*/
 .slide-info {
 	position: relative;
-	margin-top: 51px;
-	margin-left: 1px;
+	margin-top: 81px;
+	margin-left: 31px;
 
 	float: right;
 	width: 493px;
@@ -762,9 +647,8 @@ button {
 	margin-top: 2px;
 }
 
-.slide-img1 {
-	margin-top: -30px;
-	margin-left: -21px;
+.slide-img1{
+	margin-left: 38px;
 }
 
 .slide2 .slide-img {
@@ -772,8 +656,7 @@ button {
 }
 
 .slide-img2 {
-	margin-top: -30px;
-	margin-left: -9px;
+	margin-left: 52px;
 }
 
 .slide3 .slide-img {
@@ -781,8 +664,7 @@ button {
 }
 
 .slide-img3 {
-	margin-top: -30px;
-	margin-left: 1px;
+	margin-left: 31px;
 }
 
 /*Подгруппа I.II.III - Номера слайдов*/
@@ -908,21 +790,7 @@ button {
 
 /*Группа III - Дополнительные услуги (Слайдер) ------------------------------------------*/
 .services {
-	position: relative;
 	margin-top: 165px;
-}
-
-.services::before {
-	content: "";
-	position: absolute;
-	top: 20px;
-
-	width: 100%;
-	height: 288px;
-
-	background-color: #e5e5e5;
-
-	z-index: -1;
 }
 
 /*Подгруппа III.I - Кнопки управления слайдером -----------------*/
@@ -1262,6 +1130,13 @@ button {
 	position: relative;
 	margin-top: 23px;
 	margin-left: -3px;
+
+	font-family: "gilroy", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.2em;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
 }
 
 .button-map:hover .button-image  {
@@ -1317,48 +1192,6 @@ button {
 /*---------------------------------------------------------------------------------------*/
 /*ОСНОВОЕ СОДЕРЖАНИЕ СТРАНИЦЫ "КАТАЛОГ"*/
 /*---------------------------------------------------------------------------------------*/
-.header-action.header-action-user {
-	margin-right: 85px;
-	color: #000000;
-}
-
-.header-action-user::after {
-	content: "Войти";
-	margin-left: 17px;
-
-	color: #cab97b;
-}
-
-.page-catalog {
-	position: relative;
-}
-
-.page-catalog::before {
-	content: "";
-	position: absolute;
-	top: 146px;
-
-	width: 38.8%;
-	height: 1483px;
-
-	background-color: #efefef;
-
-	z-index: -1;
-}
-
-.page-catalog::after {
-	content: "";
-	position: absolute;
-	top: 146px;
-
-	width: 100%;
-	height: 70px;
-
-	background-color: #ebebeb;
-
-	z-index: -1;
-}
-
 
 /*Группа I - Хлебные крошки -------------------------------------------------------------*/
 .breadcrumbs {
@@ -1366,7 +1199,6 @@ button {
 }
 
 .breadcrumbs-page {
-	position: relative;
 	margin-top: 14px;
 	margin-right: 31px;
 
@@ -1379,46 +1211,6 @@ button {
 	letter-spacing: 0.001em;
 	color: #d1d1d1;
 	vertical-align: top;
-
-	transition: color 0.2s;
-}
-
-.breadcrumbs-page:hover {
-	color: #8b8b8b;
-}
-
-.breadcrumbs-page:active {
-	color: #eeeeee;
-}
-
-.breadcrumbs-page:nth-child(2)::before,
-.breadcrumbs-page:nth-child(3)::before {
-	content: "";
-	position: absolute;
-	top: 16px;
-	right: -20px;
-
-	width: 5px;
-	height: 2px;
-
-	background-color: #000000;
-
-	transform: rotate(45deg);
-}
-
-.breadcrumbs-page:nth-child(2)::after,
-.breadcrumbs-page:nth-child(3)::after {
-	content: "";
-	position: absolute;
-	top: 19px	;
-	right: -20px;
-
-	width: 5px;
-	height: 2px;
-
-	background-color: #000000;
-
-	transform: rotate(-45deg);
 }
 
 
@@ -1448,20 +1240,7 @@ button {
 
 /*Подгруппа II.I - Выбор цены ------------------------------------*/
 .filter-price {
-	position: relative;
 	margin-bottom: 45px;
-}
-
-.filter-price::before {
-	content: "";
-	position: absolute;
-	top: -14px;
-	left: -1px;
-
-	width: 201px;
-	height: 2px;
-
-	background-color: #000000;
 }
 
 .filter-range {
@@ -1505,12 +1284,6 @@ button {
 	cursor: pointer;
 }
 
-.range-toggle:active {
-	background: #91c92f;
-
-	border-color: #ffffff;
-}
-
 .toggle-min {
   left: -2px;
 }
@@ -1536,23 +1309,10 @@ button {
 
 /*Подгруппа II.II - Выбор цвета ----------------------------------*/
 .filter-color {
-	position: relative;
 	margin-bottom: 45px;
 }
 
-.filter-color::before {
-	content: "";
-	position: absolute;
-	top: -14px;
-	left: -1px;
-
-	width: 201px;
-	height: 2px;
-
-	background-color: #000000;
-}
-
-.color-label {
+.color-checkbox {
 	position: relative;
 
 	display: inline-block;
@@ -1565,15 +1325,15 @@ button {
 	cursor: pointer;
 }
 
-.color-label:nth-child(2) {
+.color-checkbox:nth-child(2) {
 	margin-top: 19px;
 }
 
-.color-checkbox {
+input[type="checkbox"] {
 	display: none;
 }
 
-.color-checkbox + .checkbox-indicator {
+input[type="checkbox"] + .checkbox-indicator {
 	position: absolute;
 	top: 8px;
 	left: -2px;
@@ -1584,80 +1344,12 @@ button {
 	background-color: #dbdbdb;
 }
 
-.color-checkbox + .checkbox-indicator::before {
-	content: "";
-	position: absolute;
-	top: 10px;
-	left: 7px;
-
-	width: 4px;
-	height: 2px;
-
-	background-color: #000000;
-
-	opacity: 0;
-
-	transform: rotate(45deg);
-}
-
-.color-checkbox + .checkbox-indicator::after {
-	content: "";
-	position: absolute;
-	top: 10px;
-	left: 9px;
-
-	width: 8px;
-	height: 2px;
-
-	background-color: #000000;
-
-	opacity: 0;
-
-	transform: rotate(-45deg);
-}
-
-.color-checkbox:checked + .checkbox-indicator::before,
-.color-checkbox:checked + .checkbox-indicator::after {
- 	opacity: 1;
-}
-
-.color-label:hover .checkbox-indicator {
-	background-color: #cecece;
-}
-
-.color-label:active .checkbox-indicator {
-	background-color: #c4c4c4;
-}
-
-.color-checkbox:checked:active + .checkbox-indicator::before,
-.color-checkbox:checked:active + .checkbox-indicator::after {
-	opacity: 0;
-}
-
-.color-checkbox:active + .checkbox-indicator::before,
-.color-checkbox:active + .checkbox-indicator::after {
- opacity: 1;
-}
-
 /*Подгруппа II.III - Наличие блютус ------------------------------*/
 .filter-bluetooth {
-	position: relative;
-	margin-bottom: 31px;
+	margin-bottom: 36px;
 }
 
-.filter-bluetooth::before {
-	content: "";
-	position: absolute;
-	top: -14px;
-	left: -1px;
-
-	width: 201px;
-	height: 2px;
-
-	background-color: #000000;
-}
-
-.bluetooth-label {
+.bluetooth-radio {
 	position: relative;
 
 	display: inline-block;
@@ -1670,15 +1362,15 @@ button {
 	cursor: pointer;
 }
 
-.bluetooth-label:nth-child(2) {
+.bluetooth-radio:nth-child(2) {
 	margin-top: 19px;
 }
 
-.bluetooth-radio {
+input[type="radio"] {
 	display: none;
 }
 
-.bluetooth-radio + .radio-indicator {
+input[type="radio"] + .radio-indicator {
 	position: absolute;
 	top: 8px;
 	left: -2px;
@@ -1686,54 +1378,15 @@ button {
 	width: 19px;
 	height: 19px;
 
-	background-color: #eeeeee;
+	background-color: #dbdbdb;
 
-	border: 2px solid #c7c7c7;
+	border: 2px solid #c6c6c6;
 	border-radius: 50%;
-}
-
-.bluetooth-radio + .radio-indicator::before {
-	content: "";
-	position: absolute;
-	top: 5px;
-	left: 5px;
-
-	width: 5px;
-	height: 5px;
-
-	background-color: #eeeeee;
-
-	border: 2px solid #000000;
-	border-radius: 50%;
-
-	opacity: 0;
-}
-
-.bluetooth-radio:active + .radio-indicator::before {
-	opacity: 1;
-}
-
-.bluetooth-radio:checked + .radio-indicator::before {
-	opacity: 1;
-}
-
-.bluetooth-radio:checked:active + .radio-indicator::before {
-	opacity: 0;
-}
-
-.bluetooth-label:hover .radio-indicator {
-	border-color: #bcbcbc;
-}
-
-.bluetooth-label:active .radio-indicator {
-	border-color: #acacac;
 }
 
 /*Подгруппа II.IV - Кнопка фильтра -------------------------------*/
 .filter-show {
-	position: relative;
 	width: 200px;
-	height: 40px;
 
 	font-family: "gilroy", sans-serif;
 	font-size: 18px;
@@ -1744,32 +1397,8 @@ button {
 	text-align: center;
 }
 
-.filter-show::before {
-	content: "";
-	position: absolute;
-	top: 16px;
-	left: 0;
-
-	width: 200px;
-	height: 8px;
-
-	background-color: #f0c52e;
-
-	z-index: -1;
-}
-
-.filter-show:hover {
-	background-color: #f0c52e;
-}
-
-.filter-show:active {
-	color: #bd9b24;
-}
-
-
 /*Группа III - Блок блок сортировки -----------------------------------------------------*/
 .sorting {
-	position: relative;
 	margin-top: 59px;
 
 	float: right;
@@ -1787,7 +1416,7 @@ button {
 	list-style: none;
 }
 
-.sorting-list {
+.sorting-type li {
 	margin-right: 25px;
 
 	display: inline-block;
@@ -1797,7 +1426,7 @@ button {
 	vertical-align: top;
 }
 
-.sorting-list:first-child {
+.sorting-type li:first-child {
 	margin-right: 52px;
 
 	font-family: "gilroy", sans-serif;
@@ -1811,69 +1440,6 @@ button {
 
 .sorting-action  {
 	color: #c0c0c0;
-}
-
-.sorting-list:nth-child(2) .sorting-action {
-	color: #000000;
-}
-
-.sorting-list:nth-child(n+2):nth-child(-n+4):hover .sorting-action {
-	color: #8b8b8b;
-}
-
-.sorting-list:nth-child(n+2):nth-child(-n+4):active .sorting-action {
-	color: #000000;
-}
-
-.sorting-list:nth-child(4) {
-	margin-right: 210px;
-}
-
-.sorting-list:nth-child(5) {
-	margin-right: 19px;
-}
-
-.sorting-list:last-child {
-	margin-right: 0;
-}
-
-.sorting-arrow {
-    font-size: 0;
-}
-
-.sorting-arrow::before {
-    content: "";
-
-		display: inline-block;
-
-		border: 9px solid #cccccc;
-    border-right-color: transparent;
-    border-left-color: transparent;
-}
-
-.sorting-arrow-up::before {
-    border-top-width: 0;
-}
-
-.sorting-arrow-down::before {
-    border-bottom-width: 0;
-		border-top-color: #000000;
-}
-
-.sorting-arrow-up:hover::before {
-	border-bottom-color: #999999;
-}
-
-.sorting-arrow-down:hover::before {
-	border-top-color: #999999;
-}
-
-.sorting-arrow-up:active::before {
-	border-bottom-color: #000000;
-}
-
-.sorting-arrow-down:active::before {
-	border-top-color: #000000;
 }
 
 /*Подгруппа III.II - Элементы сортировки ------------------------*/
@@ -1899,17 +1465,7 @@ button {
 	margin-bottom: 37px;
 }
 
-.item:hover img {
-	opacity: 0.7;
-}
-
-.item:hover .button-action,
-.item:hover .button-action2 {
-	opacity: 1;
-}
-
 .item-image {
-	position: relative;
 	width: 360px;
 	height: 380px;
 }
@@ -1939,8 +1495,11 @@ button {
 
 /*Подгруппа III.III - Пагинатор ----------------------------------*/
 .paginator {
+	display: table-cell;
 	width: 760px;
 	height: 70px;
+
+	vertical-align: middle;
 
 	background-color: #ebebeb;
 }
@@ -1949,6 +1508,7 @@ button {
 	margin: 0;
 
 	padding: 0;
+	width: 100%;
 
 	font-family: "gilroy", sans-serif;
 	font-size: 16px;
@@ -1960,68 +1520,28 @@ button {
 	list-style: none;
 }
 
-.paginator-list {
+.paginator-actions li {
 	display: inline-block;
 	min-width: 20px;
-	height: 70px;
 
-	text-align: center;
 	vertical-align: top;
 }
 
-.paginator-list::before {
-	content: "";
-
-	display: inline-block;
-	height: 100%;
-
-	vertical-align: middle;
+.paginator-actions li:first-child {
+	margin-right: 231px;
+	margin-left: 30px;
 }
 
-.paginator-link {
-	vertical-align: middle;
-}
-
-.paginator-list:first-child {
-	margin-right: 199px;
-
-	width: 126px;
-}
-
-.paginator-list:nth-child(2) {
+.paginator-actions li:nth-child(2) {
 	margin-right: 11px;
 }
 
-.paginator-list:nth-child(3) {
+.paginator-actions li:nth-child(3) {
 	margin-right: 7px;
 }
 
-.paginator-list:last-child {
-	margin-left: 202px;
-
-	width: 126px;
-}
-
-.paginator-list:nth-child(n+3):nth-child(-n+4) .paginator-link {
-	 color: #b9b9b9;
-}
-
-.paginator-list:nth-child(n+2):nth-child(-n+4):hover .paginator-link {
-	 color: #8b8b8b;
-}
-
-.paginator-list:nth-child(n+2):nth-child(-n+4):active .paginator-link {
-	 color: #000000;
-}
-
-.paginator-list:first-child:hover,
-.paginator-list:last-child:hover {
-	background-color: #d9d9d9;
-}
-
-.paginator-list:first-child:active .paginator-link,
-.paginator-list:last-child:active .paginator-link {
-	color: #ababab;
+.paginator-actions li:last-child {
+	margin-left: 219px;
 }
 
 
@@ -2102,7 +1622,6 @@ button {
 
 .footer-nav {
 	margin: 0;
-	margin-left: 40px;
 
 	padding: 0;
 
@@ -2329,7 +1848,7 @@ button {
 
 	display: none;
 	width: 960px;
-	min-height: 553px;
+	height: 553px;
 
 	background-color: #ffffff;
 
@@ -2384,19 +1903,6 @@ button {
 	background-color: #f2f2f2;
 
 	border: none;
-}
-
-.form-name:hover,
-.form-mail:hover,
-.form-letter:hover {
-	background-color: #eaeaea;
-}
-
-.form-name:focus,
-.form-mail:focus,
-.form-letter:focus {
-	background-color: #ffffff;
-	outline-color: #e5e5e5;
 }
 
 .form-block1{
@@ -2552,4 +2058,77 @@ button {
 .button-close:active::before,
 .button-close:active::after {
 	background-color: #f5d76d;
+}
+
+/*---------------------------------------------------------------------------------------*/
+/*ДОПОЛНИТЕЛЬНЫЕ ФУНКЦИОНАЛЬНЫЕ КЛАССЫ*/
+/*---------------------------------------------------------------------------------------*/
+
+/*I  группа - контейнеры для выравнивания------------------------------------------------*/
+.container-main {
+	margin-right: auto;
+	margin-left: auto;
+
+	width: 1160px;
+}
+
+.container-header {
+	margin-right: auto;
+	margin-left: auto;
+
+	width: 1040px;
+}
+
+
+/*II группа - Псевдораспорка-------------------------------------------------------------*/
+.clearfix:after {
+	content: "";
+
+	display: table;
+
+	clear: both;
+}
+
+
+/*III группа - Внутренняя кнопка изображения---------------------------------------------*/
+.button-action {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -11px;
+	margin-left: -100px;
+
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 200px;
+	height: 22px;
+
+	opacity: 0;
+	z-index: 1;
+
+	transition: opacity 0.3s,
+							background-color 0.3s,
+							color 0.3s;
+}
+
+.button-action::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	margin-top: 6px;
+
+	width: 200px;
+	height: 8px;
+
+	background-color: #f0c52e;
+
+	z-index: -1;
+}
+
+.button-action:hover {
+	background-color: #f0c52e;
+}
+
+.button-action:active {
+	color: #bd9b24;
 }

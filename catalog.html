@@ -12,60 +12,60 @@
 
 
 
-    <!--ХЕДЕР-->
-    <header class="page-header container-main">
-      <div class="container-header">
-        <!--Группа I - Логотип-->
-        <h1>
-          <span class="visually-hidden">Девайс<br></span>
-          <a class="header-logo" href="index.html">Device</a>
-        </h1>
-        <div class="header-search-actions clearfix">
-          <!--Группа II - Форма поиска-->
-          <form class="form-search" action="#" method="get">
-            <input class="search icon-search" type="search" name="search" id="search" placeholder="Поиск по сайту">
-            <label class="visually-hidden" for="search">Поиск по сайту</label>
-            <button class="button-search" type="submit" value="search">Найти</button>
-          </form>
-          <!--Группа III - Действия пользователя-->
-          <div class="header-actions">
-            <a class="header-action header-action-user" href="#">Валентин Петухов</a>
-            <a class="header-action" href="#">Сравнить</a>
-            <a class="header-action" href="#">Корзина</a>
-          </div>
+  <!--ХЕДЕР-->
+  <header class="page-header container-main">
+    <div class="container-header">
+      <!--Группа I - Логотип-->
+      <h1>
+        <span class="visually-hidden">Девайс<br></span>
+        <a class="header-logo" href="index.html">Device</a>
+      </h1>
+      <div class="header-search-actions clearfix">
+        <!--Группа II - Форма поиска-->
+        <form class="form-search" action="#" method="get">
+          <input class="search icon-search" type="search" name="search" id="search" placeholder="Поиск по сайту">
+          <label class="visually-hidden" for="search">Поиск по сайту</label>
+          <button class="button-search" type="submit" value="search">Найти</button>
+        </form>
+        <!--Группа III - Действия пользователя-->
+        <div class="header-actions">
+          <a class="header-action header-action-user" href="#">Валентин Петухов</a>
+          <a class="header-action" href="#">Сравнить</a>
+          <a class="header-action" href="#">Корзина</a>
         </div>
-        <!--Группа IV - Навигация-->
-        <nav class="header-main-nav">
-          <ul class="primary-menu">
-            <li class="primary-list"><a class="primary-link catalog-link" href="catalog.html">Каталог товаров</a>
-              <ul class="secondary-menu">
-                <li class="secondary-block1">
-                  <ul>
-                    <li><a class="secondary-menu-link" href="#">Виртуальная реальность</a></li>
-                    <li><a class="secondary-menu-link" href="#">Моноподы для селфи</a></li>
-                    <li><a class="secondary-menu-link" href="#">Экшн-камеры</a></li>
-                  </ul>
-                </li>
-                <li class="secondary-block2">
-                  <ul>
-                    <li><a class="secondary-menu-link" href="#">Фитнесс-браслеты</a></li>
-                    <li><a class="secondary-menu-link" href="#">Умные часы</a></li>
-                  </ul>
-                </li>
-                <li class="secondary-block3">
-                  <ul>
-                    <li><a class="secondary-menu-link" href="#">Квадрокоптеры</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li class="primary-list"><a class="primary-link" href="#">Доставка</a></li>
-            <li class="primary-list"><a class="primary-link"  href="#">Гарантия</a></li>
-            <li class="primary-list"><a class="primary-link"  href="#">Контакты</a></li>
-          </ul>
-        </nav>
       </div>
-    </header>
+      <!--Группа IV - Навигация-->
+      <nav class="header-main-nav">
+        <ul class="primary-menu">
+          <li class="primary-item"><a class="primary-link catalog-link" href="catalog.html">Каталог товаров</a>
+            <ul class="secondary-menu">
+              <li class="secondary-block">
+                <ul>
+                  <li><a class="secondary-menu-link" href="#">Виртуальная реальность</a></li>
+                  <li><a class="secondary-menu-link" href="#">Моноподы для селфи</a></li>
+                  <li><a class="secondary-menu-link" href="#">Экшн-камеры</a></li>
+                </ul>
+              </li>
+              <li class="secondary-block">
+                <ul>
+                  <li><a class="secondary-menu-link" href="#">Фитнесс-браслеты</a></li>
+                  <li><a class="secondary-menu-link" href="#">Умные часы</a></li>
+                </ul>
+              </li>
+              <li class="secondary-block">
+                <ul>
+                  <li><a class="secondary-menu-link" href="#">Квадрокоптеры</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="primary-item"><a class="primary-link" href="#">Доставка</a></li>
+          <li class="primary-item"><a class="primary-link"  href="#">Гарантия</a></li>
+          <li class="primary-item"><a class="primary-link"  href="#">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
 
 		<!--ОСНОВОЕ СОДЕРЖАНИЕ СТРАНИЦЫ "КАТАЛОГ" -->
@@ -76,19 +76,21 @@
         </div>
   			<!--Группа I - Хлебные крошки-->
   			<div class="breadcrumbs container-header">
-  				<a class="breadcrumbs-page" href="#">Главная</a>
-  				<a class="breadcrumbs-page" href="#">Каталог товаров</a>
-  				<a class="breadcrumbs-page" href="#">Моноподы для селфи</a>
+          <ul class="breadcrumbs-list">
+    				<li class="breadcrumbs-item"><a class="breadcrumbs-page" href="#">Главная</a></li>
+    				<li class="breadcrumbs-item"><a class="breadcrumbs-page" href="#">Каталог товаров</a></li>
+    				<li class="breadcrumbs-item"><a class="breadcrumbs-page" href="#">Моноподы для селфи</a></li>
+         </ul>
   			</div>
       </div>
 
 
   		<!--Группа II - Блок фильтра-->
       <div class="filter-sorting clearfix">
-  			<section class="filter">
+  			<section class="filter clearfix">
           <h2 class="visually-hidden">Фильтр по товарам</h2>
+          <div class="filter-name">Фильтр:</div>
           <div class="filter-float">
-            <span class="filter-name">Фильтр:</span>
     				<form class="filter-form" action="#" method="get">
     					<!--Подгруппа II.I - Выбор цены-->
     					<div class="filter-price">
@@ -158,16 +160,18 @@
 			<!--Группа III - Блок блок сортировки-->
   			<section class="sorting clearfix">
           <h2 class="visually-hidden">Сортировка товаров</h2>
-          <div class="sorting-float">
-    				<!--Подгруппа III.I - Типы сортировки-->
-            <ul class="sorting-type">
-              <li class="sorting-list">Сортировка:</li>
-              <li class="sorting-list"><a class="sorting-action" href="#">По цене</a></li>
-              <li class="sorting-list"><a class="sorting-action" href="#">По типу</a></li>
-              <li class="sorting-list"><a class="sorting-action" href="#">По популярности</a></li>
-              <li class="sorting-list"><a class="sorting-arrow sorting-arrow-up" href="#">По возрастанию</a></li>
-              <li class="sorting-list"><a class="sorting-arrow sorting-arrow-down" href="#">По убыванию</a></li>
+  				<!--Подгруппа III.I - Типы сортировки-->
+          <div class="sorting-type">
+            <ul class="sorting-list">
+              <li class="sorting-list-item">Сортировка:</li>
+              <li class="sorting-list-item"><a class="sorting-action" href="#">По цене</a></li>
+              <li class="sorting-list-item"><a class="sorting-action" href="#">По типу</a></li>
+              <li class="sorting-list-item"><a class="sorting-action" href="#">По популярности</a></li>
+              <li class="sorting-list-item"><a class="sorting-arrow sorting-arrow-up" href="#">По возрастанию</a></li>
+              <li class="sorting-list-item"><a class="sorting-arrow sorting-arrow-down sorting-arrow-action-down" href="#">По убыванию</a></li>
             </ul>
+           </div>
+           <div class="sorting-float">
             <!--Подгруппа III.II - Элементы сортировки-->
     				<div class="sorting-items clearfix">
       				<article class="item">
@@ -217,7 +221,7 @@
                     <div class="button-action2">Добавить к сравнению</div>
       						</div>
       						<div class="item-text">
-      							<h3 class="item-name">Селфи-палка "Следуй за мной"</h3>
+      							<h3 class="item-name">Селфи-палка &laquo;Следуй за мной&raquo;</h3>
       							<p class="item-price">4 900 руб.</p>
       						</div>
       					</a>
@@ -225,12 +229,12 @@
             </div>
       			<!--Подгруппа III.III - Пагинатор-->
     				<div class="paginator">
-    					<ul class="paginator-actions">
-    						<li class="paginator-list"><a class="paginator-link" href="#">Назад</a></li>
-    						<li class="paginator-list"><a class="paginator-link" href="#">1</a></li>
-    						<li class="paginator-list"><a class="paginator-link" href="#">2</a></li>
-    						<li class="paginator-list"><a class="paginator-link" href="#">3</a></li>
-    						<li class="paginator-list"><a class="paginator-link" href="#">Вперед</a></li>
+    					<ul class="paginator-list">
+    						<li class="paginator-item"><a class="paginator-link" href="#">Назад</a></li>
+    						<li class="paginator-item"><a class="paginator-link" href="#">1</a></li>
+    						<li class="paginator-item"><a class="paginator-link" href="#">2</a></li>
+    						<li class="paginator-item"><a class="paginator-link" href="#">3</a></li>
+    						<li class="paginator-item"><a class="paginator-link" href="#">Вперед</a></li>
     					</ul>
     				</div>
           </div>
@@ -247,13 +251,13 @@
       <div class="container-main clearfix">
 
         <!--Группа II - Параметры первого блока-->
-        <div class="footer-block1">
+        <div class="footer-block-address">
           <a class="footer-logo font-logo" href="#">DEVICE</a>
           <p class="contacts contact-address">г. Москва, ул. Строителей, 15</p>
         </div>
 
         <!-- Группа III - Параметры второго блока -->
-        <div class="footer-block2">
+        <div class="footer-block-navigation">
           <nav class="footer-main-nav">
             <ul class="footer-nav">
               <li class="footer-nav-item"><a class="footer-nav-link" href="#">Доставка</a></li>
@@ -270,7 +274,7 @@
         </div>
 
         <!--Группа IV - Параметры третьего блока-->
-        <div class="footer-block3">
+        <div class="footer-block-actions">
           <a class="footer-action" href="#">Войти</a>
           <a class="footer-action" href="#">Сравнить</a>
           <a class="footer-action" href="#">Корзина</a>

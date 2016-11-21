@@ -10,7 +10,7 @@ body {
 
 	font-family: "Open Sans", sans-serif;
 	font-size: 15px;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 30px;
 	color: #464646;
 }
@@ -107,10 +107,6 @@ button {
 
 		opacity: 0;
 		z-index: 2;
-
-		transition: opacity 0.3s,
-								background-color 0.3s,
-								color 0.3s;
 	}
 
 	.button-action::before {
@@ -153,9 +149,6 @@ button {
 
 		opacity: 0;
 		z-index: 1;
-
-		transition: opacity 0.3s,
-								color 0.3s;
 	}
 
 	.button-action2:hover {
@@ -242,8 +235,6 @@ button {
 	background-color: inherit;
 
 	border: none;
-
-	transition: border-color 0.2s;
 }
 
 .icon-search {
@@ -295,7 +286,7 @@ button {
 
 	font-family: "Open Sans", sans-serif;
 	font-size: 15px;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 36px;
 	letter-spacing: 0.001em;
 
@@ -305,8 +296,6 @@ button {
 	border: 2px solid #000000;
 
 	opacity: 0;
-
-	transition: opacity 0.2s;
 }
 
 .button-search:hover {
@@ -340,7 +329,7 @@ button {
 
 	font-family: "Open Sans", sans-serif;
 	font-size: 15px;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 1em;
 	letter-spacing: 0.001em;
 	vertical-align: top;
@@ -422,18 +411,18 @@ button {
 
 /*Подгруппа IV.I - Основная навигация----------*/
 
-.primary-list {
+.primary-item {
 	position: relative;
 
   display: inline-block;
 }
 
-.primary-list:first-child {
+.primary-item:first-child {
 	margin-right: 322px;
 	margin-left: -1px;
 }
 
-.primary-list:first-child:hover .secondary-menu {
+.primary-item:first-child:hover .secondary-menu {
 	visibility: visible;
 	opacity: 1;
 	z-index: 2;
@@ -476,27 +465,27 @@ button {
 	background-color: #b8a974;
 }
 
-.primary-list:nth-child(2) {
+.primary-item:nth-child(2) {
 	margin-right: 34px;
 }
 
-.primary-list:nth-child(3) {
+.primary-item:nth-child(3) {
 	margin-right: 109px;
 }
 
-.primary-list:last-child {
+.primary-item:last-child {
 	width: 100px;
 }
 
 .primary-link:hover,
-.primary-list:first-child:hover::after,
-.primary-list:first-child:hover::before {
+.primary-item:first-child:hover::after,
+.primary-item:first-child:hover::before {
 	opacity: 0.6;
 }
 
 .primary-link:active,
-.primary-list:first-child:active::after,
-.primary-list:first-child:active::before {
+.primary-item:first-child:active::after,
+.primary-item:first-child:active::before {
 	opacity: 0.3;
 }
 
@@ -512,7 +501,7 @@ button {
 
 	font-family: "Open Sans", sans-serif;
 	font-size: 15px;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 36px;
 	letter-spacing: 0.001em;
 	list-style: none;
@@ -521,12 +510,9 @@ button {
 
 	visibility: hidden;
 	opacity: 0;
-
-	transition: opacity 0.3s,
-							visibility 0.3s;
 }
 
-.secondary-block1 {
+.secondary-block:first-child {
 	margin-right: 51px;
 
 	display: inline-block;
@@ -534,7 +520,7 @@ button {
 	vertical-align: top;
 }
 
-.secondary-block1 ul {
+.secondary-block:first-child ul {
 	margin: 0;
 
 	padding: 0;
@@ -542,7 +528,7 @@ button {
 	list-style: none;
 }
 
-.secondary-block2 {
+.secondary-block:nth-child(2) {
 	margin-right: 62px;
 
 	display: inline-block;
@@ -550,7 +536,7 @@ button {
 	vertical-align: top;
 }
 
-.secondary-block2 ul {
+.secondary-block:nth-child(2) ul {
 	margin: 0;
 
 	padding: 0;
@@ -558,13 +544,13 @@ button {
 	list-style: none;
 }
 
-.secondary-block3 {
+.secondary-block:last-child {
 	display: inline-block;
 
 	vertical-align: top;
 }
 
-.secondary-block3 ul {
+.secondary-block:last-child ul {
 	margin: 0;
 
 	padding: 0;
@@ -875,92 +861,86 @@ button {
 	letter-spacing: 0.001em;
 }
 
-.c-section {
+.catalog-section {
 	margin-right: 40px;
 
 	float: left;
 	width: 160px;
 }
 
-.c-section:last-child{
+.catalog-section:last-child{
 	margin-right: 0;
 }
 
 .section-name {
-	margin-top: 35px;
+	padding-top: 35px;
 
 	display: block;
 }
 
 .section-background {
-	position: relative;
-
-	display: table-cell;
 	width: 160px;
 	height: 160px;
 
-	vertical-align: middle;
-	text-align: center;
-
 	background-color: #f7e296;
-
-	z-index: -1;
 }
 
-.section-img1 {
-	position: relative;
-	top: 2px;
+.section-img {
+	width: 160px;
+	height: 160px;
 }
 
-.section-img2 {
-	position: relative;
-	top: 24px;
-	left: 1px;
+.section-img-1 {
+	background-image: url("../img/popular-1.png");
+	background-repeat: no-repeat;
+	background-position: 31px 52px;
 }
 
-.section-img3 {
-	position: relative;
-	top: 4px;
-	left: 5px;
+.section-img-2 {
+	background-image: url("../img/popular-2.png");
+	background-repeat: no-repeat;
+	background-position: 38px 43px;
 }
 
-.section-img4 {
-	position: relative;
-	top: 5px;
-	left: 2px;
+.section-img-3 {
+	background-image: url("../img/popular-3.png");
+	background-repeat: no-repeat;
+	background-position: 49px 38px;
 }
 
-.section-img5 {
-	position: relative;
-	top: 4px;
-	left: 3px;
+.section-img-4 {
+	background-image: url("../img/popular-4.png");
+	background-repeat: no-repeat;
+	background-position: 28px 50px;
 }
 
-.section-img6 {
-	position: relative;
-	top: 6px;
-	right: 1px;
+.section-img-5 {
+	background-image: url("../img/popular-5.png");
+	background-repeat: no-repeat;
+	background-position: 55px 32px;
 }
 
-.c-section:hover .section-background,
-.c-section:active .section-background {
-	background-color: #f0c52e;
-
-	transition: background-color 0.2s;
+.section-img-6 {
+	background-image: url("../img/popular-6.png");
+	background-repeat: no-repeat;
+	background-position:  13px 49px;
 }
 
-.c-section:active [class*="section-img"],
-.c-section:active .section-name {
+.catalog-section:active .section-name,
+.catalog-section:active .section-img {
 	opacity: 0.3;
+}
 
-	transition: opacity 0.2s;
+.catalog-section:hover .section-background,
+.catalog-section:active .section-background {
+	background-color: #f0c52e;
 }
 
 
 /*Группа III - Дополнительные услуги (Слайдер) ------------------------------------------*/
 .services {
 	position: relative;
-	margin-top: 165px;
+	margin-top: 242px;
 }
 
 .services::before {
@@ -1172,9 +1152,6 @@ button {
 .partner:hover {
 	filter: grayscale(0);
   opacity: 1;
-
-	transition: filter 0.2s,
-							opacity 0.2s.
 }
 
 
@@ -1189,7 +1166,7 @@ button {
 	margin-left: -1px;
 
 	float: left;
-	width: 500px;
+	width: 475px;
 }
 
 .about-info::before {
@@ -1229,6 +1206,7 @@ button {
 	font-size: 16px;
 	font-weight: 800;
 	line-height: 40px;
+	color: #000000;
 }
 
 .transport-company li::before {
@@ -1261,9 +1239,6 @@ button {
 	line-height: 1.2em;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
-
-	transition: border-color 0.2s,
-							color 0.2s;
 }
 
 .about-more::before {
@@ -1291,7 +1266,7 @@ button {
 /*Подгруппа V.II - Блок с картой --------------------------------*/
 .about-contacts {
 	position: relative;
-	margin-left: 98px;
+	margin-left: 123px;
 
 	float: left;
 	width: 560px;
@@ -1324,8 +1299,6 @@ button {
 
 .button-map:hover .button-image  {
 	opacity: 0.7;
-
-	transition: opacity 0.3s;
 }
 
 .button-map:hover .button-action {
@@ -1393,25 +1366,24 @@ button {
 	position: relative;
 }
 
-.page-catalog::after {
-	content: "";
-	position: absolute;
-	top: 146px;
-
-	width: 100%;
-	height: 70px;
-
-	background-color: #000000;
-
-	opacity: 0.08;
-}
-
 .catalog-header {
 	margin-top: 33px;
 }
 
 /*Группа I - Хлебные крошки -------------------------------------------------------------*/
-.breadcrumbs-page {
+.breadcrumbs {
+	margin-bottom: 40px;
+}
+
+.breadcrumbs-list {
+	margin: 0;
+
+	padding: 0;
+
+	list-style: 0;
+}
+
+.breadcrumbs-item {
 	position: relative;
 	margin-top: 14px;
 	margin-right: 31px;
@@ -1420,13 +1392,11 @@ button {
 
 	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 36px;
 	letter-spacing: 0.001em;
 	color: #d1d1d1;
 	vertical-align: top;
-
-	transition: color 0.2s;
 }
 
 .breadcrumbs-page:hover {
@@ -1437,8 +1407,8 @@ button {
 	color: #eeeeee;
 }
 
-.breadcrumbs-page:first-child::before,
-.breadcrumbs-page:nth-child(2)::before {
+.breadcrumbs-item:first-child::before,
+.breadcrumbs-item:nth-child(2)::before {
 	content: "";
 	position: absolute;
 	top: 16px;
@@ -1452,8 +1422,8 @@ button {
 	transform: rotate(45deg);
 }
 
-.breadcrumbs-page:first-child::after,
-.breadcrumbs-page:nth-child(2)::after {
+.breadcrumbs-item:first-child::after,
+.breadcrumbs-item:nth-child(2)::after {
 	content: "";
 	position: absolute;
 	top: 19px	;
@@ -1470,47 +1440,48 @@ button {
 
 /*Группа II - Блок фильтра --------------------------------------------------------------*/
 .filter {
-	margin-top: 40px;
-
 	float: left;
-	padding-top: 19px;
+	padding-bottom: 514px;
 	width: 36.8%;
-	min-height: 1264px;
 
 	background-color: #efefef;
 }
 
 .filter-float {
 	float: right;
-	padding-left: 2px;
-	width: 268px;
+	width: 270px;
 }
 
 .filter-name {
+	padding-top: 25px;
+	padding-right: 180px;
+	padding-bottom: 26px;
+
 	font-family: "Gilroy", sans-serif;
 	font-size: 16px;
 	font-weight: 800;
 	line-height: 1.2em;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
+	text-align: right;
 	color: #000000;
-}
 
-.filter-form {
-	margin-top: 104px;
+	background-color: #dbdbdb;
 }
 
 /*Подгруппа II.I - Выбор цены ------------------------------------*/
 .filter-price {
 	position: relative;
-	margin-bottom: 45px;
+
+	padding-top: 83px;
+	padding-bottom: 25px;
 }
 
 .filter-price::before {
 	content: "";
 	position: absolute;
-	top: -14px;
-	left: -1px;
+	top: 69px;
+	left: 1px;
 
 	width: 201px;
 	height: 2px;
@@ -1519,9 +1490,8 @@ button {
 }
 
 .filter-range {
-	margin-top: 36px;
-	margin-bottom: 6px;
-
+	padding-top: 36px;
+	padding-bottom: 6px;
   width: 200px;
 }
 
@@ -1591,14 +1561,16 @@ button {
 /*Подгруппа II.II - Выбор цвета ----------------------------------*/
 .filter-color {
 	position: relative;
-	margin-bottom: 45px;
+
+	padding-top: 20px;
+	padding-bottom: 25px;
 }
 
 .filter-color::before {
 	content: "";
 	position: absolute;
-	top: -14px;
-	left: -1px;
+	top: 6px;
+	left: 1px;
 
 	width: 201px;
 	height: 2px;
@@ -1630,7 +1602,7 @@ button {
 .color-checkbox + .checkbox-indicator {
 	position: absolute;
 	top: 8px;
-	left: -2px;
+	left: 0;
 
 	width: 23px;
 	height: 23px;
@@ -1641,7 +1613,7 @@ button {
 .color-checkbox + .checkbox-indicator::before {
 	content: "";
 	position: absolute;
-	top: 10px;
+	top: 11px;
 	left: 7px;
 
 	width: 4px;
@@ -1657,7 +1629,7 @@ button {
 .color-checkbox + .checkbox-indicator::after {
 	content: "";
 	position: absolute;
-	top: 10px;
+	top: 11px;
 	left: 9px;
 
 	width: 8px;
@@ -1696,14 +1668,16 @@ button {
 /*Подгруппа II.III - Наличие блютус ------------------------------*/
 .filter-bluetooth {
 	position: relative;
-	margin-bottom: 31px;
+
+	padding-top: 20px;
+	padding-bottom: 31px;
 }
 
 .filter-bluetooth::before {
 	content: "";
 	position: absolute;
-	top: -14px;
-	left: -1px;
+	top: 6px;
+	left: 1px;
 
 	width: 201px;
 	height: 2px;
@@ -1735,7 +1709,7 @@ button {
 .bluetooth-radio + .radio-indicator {
 	position: absolute;
 	top: 8px;
-	left: -2px;
+	left: 0;
 
 	width: 19px;
 	height: 19px;
@@ -1818,39 +1792,43 @@ button {
 
 .filter-show:active {
 	color: #bd9b24;
+
+	background-color: #f0c52e;
 }
 
 
-/*Группа III - Блок блок сортировки -----------------------------------------------------*/
+/*Группа III - Блоксортировки -----------------------------------------------------------*/
 .sorting {
-	position: relative;
-	margin-top: 59px;
-
 	float: right;
 	width: 63.2%;
-	min-height: 1264px;
-
-	z-index: 2;
 }
 
 .sorting-float {
-	margin-left: 72px;
+	padding-left: 72px;
 
 	float: left;
-	width: 830px;
+	width: 760px;
 }
 
 /*Подгруппа III.I - Типы сортировки -----------------------------*/
 .sorting-type {
+	padding-top: 25px;
+	padding-bottom: 15px;
+	padding-left: 72px;
+
+	background: #ebebeb;
+}
+
+.sorting-list {
 	margin: 0;
-	margin-top: 6px;
 
 	padding: 0;
+	width: 760px;
 
 	list-style: none;
 }
 
-.sorting-list {
+.sorting-list-item {
 	margin-right: 25px;
 
 	display: inline-block;
@@ -1860,7 +1838,7 @@ button {
 	vertical-align: top;
 }
 
-.sorting-list:first-child {
+.sorting-list-item:first-child {
 	margin-right: 52px;
 
 	font-family: "Gilroy", sans-serif;
@@ -1876,27 +1854,27 @@ button {
 	color: #c0c0c0;
 }
 
-.sorting-list:nth-child(2) .sorting-action {
+.sorting-list-item:nth-child(2) .sorting-action {
 	color: #000000;
 }
 
-.sorting-list:nth-child(n+2):nth-child(-n+4):hover .sorting-action {
+.sorting-list-item:nth-child(n+2):nth-child(-n+4):hover .sorting-action {
 	color: #8b8b8b;
 }
 
-.sorting-list:nth-child(n+2):nth-child(-n+4) .sorting-action:active {
+.sorting-list-item:nth-child(n+2):nth-child(-n+4) .sorting-action:active {
 	color: #000000;
 }
 
-.sorting-list:nth-child(4) {
+.sorting-list-item:nth-child(4) {
 	margin-right: 210px;
 }
 
-.sorting-list:nth-child(5) {
+.sorting-list-item:nth-child(5) {
 	margin-right: 19px;
 }
 
-.sorting-list:last-child {
+.sorting-list-item:last-child {
 	margin-right: 0;
 }
 
@@ -1920,6 +1898,9 @@ button {
 
 .sorting-arrow-down::before {
     border-bottom-width: 0;
+}
+
+.sorting-arrow-action-down::before {
 		border-top-color: #000000;
 }
 
@@ -1941,7 +1922,8 @@ button {
 
 /*Подгруппа III.II - Элементы сортировки ------------------------*/
 .sorting-items {
-	margin-top: 84px;
+	padding-top: 69px;
+	padding-bottom: 39px;
 }
 
 .item {
@@ -1951,7 +1933,6 @@ button {
 
 	float: left;
 	width: 360px;
-	min-height: 458px;
 }
 
 .item:nth-child(2n) {
@@ -1960,7 +1941,7 @@ button {
 
 .item:nth-child(4n),
 .item:nth-child(4n-1) {
-	margin-bottom: 37px;
+	margin-bottom: 0;
 }
 
 .item:nth-child(4)::before {
@@ -2033,13 +2014,14 @@ button {
 
 /*Подгруппа III.III - Пагинатор ----------------------------------*/
 .paginator {
+	margin-bottom: 72px;
+
 	width: 760px;
-	height: 70px;
 
 	background-color: #ebebeb;
 }
 
-.paginator-actions {
+.paginator-list {
 	margin: 0;
 
 	padding: 0;
@@ -2047,74 +2029,66 @@ button {
 	font-family: "Gilroy", sans-serif;
 	font-size: 16px;
 	font-weight: 800;
-	line-height: 1.2em;
+	line-height: 1em;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 
 	list-style: none;
 }
 
-.paginator-list {
+.paginator-item {
 	display: inline-block;
+	padding-top: 27px;
+	padding-bottom: 27px;
 	min-width: 20px;
-	height: 70px;
 
 	text-align: center;
 	vertical-align: top;
-}
-
-.paginator-list::before {
-	content: "";
-
-	display: inline-block;
-	height: 100%;
-
-	vertical-align: middle;
 }
 
 .paginator-link {
 	vertical-align: middle;
 }
 
-.paginator-list:first-child {
+.paginator-item:first-child {
 	margin-right: 199px;
 
 	width: 126px;
 }
 
-.paginator-list:nth-child(2) {
+.paginator-item:nth-child(2) {
 	margin-right: 11px;
 }
 
-.paginator-list:nth-child(3) {
+.paginator-item:nth-child(3) {
 	margin-right: 7px;
 }
 
-.paginator-list:last-child {
+.paginator-item:last-child {
 	margin-left: 202px;
 
 	width: 126px;
 }
 
-.paginator-list:nth-child(n+3):nth-child(-n+4) .paginator-link {
+.paginator-item:nth-child(n+3):nth-child(-n+4) .paginator-link {
 	 color: #b9b9b9;
 }
 
-.paginator-list:nth-child(n+2):nth-child(-n+4) .paginator-link:hover {
+.paginator-item:nth-child(n+2):nth-child(-n+4) .paginator-link:hover {
 	 color: #8b8b8b;
 }
 
-.paginator-list:nth-child(n+2):nth-child(-n+4) .paginator-link:active {
+.paginator-item:nth-child(n+2):nth-child(-n+4) .paginator-link:active {
 	 color: #000000;
 }
 
-.paginator-list:first-child:hover,
-.paginator-list:last-child:hover {
+.paginator-item:first-child:hover,
+.paginator-item:last-child:hover {
 	background-color: #d9d9d9;
 }
 
-.paginator-list:first-child .paginator-link:active,
-.paginator-list:last-child .paginator-link:active {
+.paginator-item:first-child .paginator-link:active,
+.paginator-item:last-child .paginator-link:active {
 	color: #ababab;
 }
 
@@ -2138,7 +2112,7 @@ button {
 
 
 /*Группа II - Параметры первого блока----------------------------------------------------*/
-.footer-block1 {
+.footer-block-address {
 	position: relative;
 
 	float: left;
@@ -2181,17 +2155,16 @@ button {
 
 
 /*Группа III - Параметры второго блока---------------------------------------------------*/
-.footer-block2 {
+.footer-block-navigation {
 	float: left;
+	width: 550px;
 
 	text-align: center;
 }
 
 .footer-main-nav {
 	margin-top: 83px;
-	margin-left: 32px;
-
-	width: 550px;
+	margin-left: 63px;
 }
 
 .footer-nav {
@@ -2237,8 +2210,7 @@ button {
 
 .social {
 	margin-top: 62px;
-	margin-right: 185px;
-	margin-left: auto;
+	margin-left: 244px;
 
 	width: 153px;
 
@@ -2283,11 +2255,11 @@ button {
 
 
 /*Группа IV - Параметры третьего блока---------------------------------------------------*/
-.footer-block3 {
+.footer-block-actions {
 	margin-top: 5px;
 
 	float: right;
-	width: 300px;
+	width: 350px;
 
 	text-align: right;
 }
@@ -2303,6 +2275,7 @@ button {
 
 .footer-action:first-child {
 	position: relative;
+	margin-right: 60px;
 }
 
 .footer-action:first-child::before {
@@ -2318,12 +2291,11 @@ button {
 	background-color: transparent;
 	background-image: url("../img/footer-user.png");
 	background-repeat: no-repeat;
-	filter: saturate(0.4);
 }
 
 .footer-action:nth-child(2) {
 	position: relative;
-	margin-left: 58px;
+	margin-right: 60px;
 }
 
 .footer-action:nth-child(2)::before {
@@ -2339,13 +2311,11 @@ button {
 	background-color: transparent;
 	background-image: url("../img/footer-compare.png");
 	background-repeat: no-repeat;
-	filter: saturate(0.4);
 }
 
 .footer-action:nth-child(3) {
 	position: relative;
 	margin-right: 0;
-	margin-left: 55px;
 }
 
 .footer-action:nth-child(3)::before {
@@ -2353,7 +2323,7 @@ button {
 	position: absolute;
 
 	top: 12px;
-	left: -19px;
+	left: -22px;
 
 	width: 13px;
 	height: 12px;
@@ -2361,7 +2331,6 @@ button {
 	background-color: transparent;
 	background-image: url("../img/footer-cart.png");
 	background-repeat: no-repeat;
-	filter: saturate(0.4);
 }
 
 .footer-action:hover {
@@ -2374,12 +2343,16 @@ button {
 	opacity: 0.3;
 }
 
-.footer-action:hover::before {
-	filter: saturate(1);
+.footer-action:first-child:hover::before {
+	background-image: url("../img/footer-user-hover.png");
 }
 
-.footer-action:active::before {
-	filter: saturate(1);
+.footer-action:nth-child(2):hover::before {
+	background-image: url("../img/footer-compare-hover.png");
+}
+
+.footer-action:nth-child(3):hover::before {
+	background-image: url("../img/footer-cart-hover.png");
 }
 
 .contact-number {
@@ -2394,17 +2367,13 @@ button {
 	height: 34px;
 
 	background: transparent url("../img/htmlacademy.png") no-repeat;
-
-	filter: saturate(0.4);
 }
 
 .footer-academy:hover {
-	filter: saturate(1);
+	background-image: url("../img/htmlacademy-hover.png");
 }
 
 .footer-academy:active {
-	filter: saturate(1);
-
 	opacity: 0.3;
 }
 
@@ -2451,8 +2420,8 @@ button {
 	width: 760px;
 	height: 377px;
 
-	box-shadow: 0 50px #ffffff,
-							0 -10px #ffffff,
+	box-shadow: 0 70px #ffffff,
+							0 -30px #ffffff,
 							0 20px 40px rgba(0, 0, 0, 0.75);
 }
 
@@ -2477,7 +2446,7 @@ button {
 
 	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 18px;
 
 	background-color: #f2f2f2;
@@ -2502,17 +2471,17 @@ button {
 	outline-color: #e5e5e5;
 }
 
-.form-block1{
+.form-block-name{
 	float: left;
 	width: 360px;
 }
 
-.form-block2	{
+.form-block-mail	{
 	float: right;
 	width: 360px;
 }
 
-.form-block3	{
+.form-block-textarea	{
 	margin-top: 36px;
 
 	float: left;
@@ -2635,8 +2604,6 @@ button {
 	background-color: #f7e296;
 
 	border-radius: 50%;
-
-	transition: background-color 0.3s;
 }
 
 .button-close::before,
@@ -2650,8 +2617,6 @@ button {
 	height: 2px;
 
 	background-color: #ffffff;
-
-	transition: background-color 0.3s;
 }
 
 .button-close::before {

@@ -1,13 +1,13 @@
 var button_write = document.querySelector(".button-write");
 var write_us = document.querySelector(".write-us");
-var button_close_write = document.querySelector(".button-close");
+var button_close_write = document.querySelector(".button-close-write");
 var overlay_write = document.querySelector(".pop-up-overlay");
 var form_write = document.querySelector(".write-form");
 var form_name = document.querySelector(".form-name");
 var form_mail = document.querySelector(".form-mail");
 var form_letter = document.querySelector(".form-letter");
 
-var button_close_map = document.querySelector(".button-close");
+var button_close_map = document.querySelector(".button-close-map");
 var overlay_map = document.querySelector(".pop-up-overlay");
 var button_action = document.querySelector(".button-action");
 var map_large = document.querySelector(".map-large");

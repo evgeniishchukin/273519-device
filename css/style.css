@@ -2604,7 +2604,7 @@ button {
 
 
 /*IV группа - Кнопка закрытия pop-up'ов--------------------------------------------------*/
-.button-close {
+.button-close-write {
 	content: "";
 	position: absolute;
 	top: 22px;
@@ -2618,8 +2618,8 @@ button {
 	border-radius: 50%;
 }
 
-.button-close::before,
-.button-close::after {
+.button-close-write::before,
+.button-close-write::after {
 	content: "";
 	position: absolute;
 	top: 26px;
@@ -2631,24 +2631,72 @@ button {
 	background-color: #ffffff;
 }
 
-.button-close::before {
+.button-close-write::before {
 	transform: rotate(45deg);
 }
 
-.button-close::after {
+.button-close-write::after {
 	transform: rotate(-45deg);
 }
 
-.button-close:hover {
+.button-close-write:hover {
 	background-color: #f0c52e;
 }
 
-.button-close:active {
+.button-close-write:active {
 	background-color: #f0c52e;
 }
 
-.button-close:active::before,
-.button-close:active::after {
+.button-close-write:active::before,
+.button-close-write:active::after {
+	background-color: #f5d76d;
+}
+
+.button-close-map {
+	content: "";
+	position: absolute;
+	top: 22px;
+	right: 22px;
+
+	width: 54px;
+	height: 54px;
+
+	background-color: #f7e296;
+
+	border-radius: 50%;
+}
+
+.button-close-map::before,
+.button-close-map::after {
+	content: "";
+	position: absolute;
+	top: 26px;
+	right: 13px;
+
+	width: 29px;
+	height: 2px;
+
+	background-color: #ffffff;
+}
+
+.button-close-map::before {
+	transform: rotate(45deg);
+}
+
+.button-close-map::after {
+	transform: rotate(-45deg);
+}
+
+.button-close-map:hover {
+	background-color: #f0c52e;
+}
+
+.button-close-map:active {
+	background-color: #f0c52e;
+}
+
+.button-close-map:active::before,
+.button-close-map:active::after {
 	background-color: #f5d76d;
 }
 

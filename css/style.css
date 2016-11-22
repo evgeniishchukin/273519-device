@@ -1439,10 +1439,15 @@ button {
 
 
 /*Группа II - Блок фильтра --------------------------------------------------------------*/
+.filter-sorting {
+	width: 1440px;
+	margin: 0 auto;
+}
+
 .filter {
 	float: left;
 	padding-bottom: 514px;
-	width: 36.8%;
+	width: 32.5%;
 
 	background-color: #efefef;
 }
@@ -1800,7 +1805,7 @@ button {
 /*Группа III - Блоксортировки -----------------------------------------------------------*/
 .sorting {
 	float: right;
-	width: 63.2%;
+	width: 67.5%;
 }
 
 .sorting-float {
@@ -1896,11 +1901,15 @@ button {
     border-top-width: 0;
 }
 
+.sorting-arrow-up.active::before {
+		border-bottom-color: #000000;
+}
+
 .sorting-arrow-down::before {
     border-bottom-width: 0;
 }
 
-.sorting-arrow-action-down::before {
+.sorting-arrow-down.active::before {
 		border-top-color: #000000;
 }
 

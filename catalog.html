@@ -6,66 +6,67 @@
     <link href="http://webfonts.ru/import/opensans.css" rel="stylesheet" type="text/css">
     <link href="http://webfonts.ru/import/gilroy.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/normalize.css">
-	  <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
 
 
 
-  <!--ХЕДЕР-->
-  <header class="page-header container-main">
-    <div class="container-header">
-      <!--Группа I - Логотип-->
-      <h1>
-        <span class="visually-hidden">Девайс<br></span>
-        <a class="header-logo" href="index.html">Device</a>
-      </h1>
-      <div class="header-search-actions clearfix">
-        <!--Группа II - Форма поиска-->
-        <form class="form-search" action="#" method="get">
-          <input class="search icon-search" type="search" name="search" id="search" placeholder="Поиск по сайту">
-          <label class="visually-hidden" for="search">Поиск по сайту</label>
-          <button class="button-search" type="submit" value="search">Найти</button>
-        </form>
-        <!--Группа III - Действия пользователя-->
-        <div class="header-actions">
-          <a class="header-action header-action-user" href="#">Валентин Петухов</a>
-          <a class="header-action" href="#">Сравнить</a>
-          <a class="header-action" href="#">Корзина</a>
+    <!--ХЕДЕР-->
+    <header class="page-header container-main">
+      <div class="container-header">
+        <!--Группа I - Логотип-->
+        <h1>
+          <span class="visually-hidden">Девайс<br></span>
+          <a class="header-logo" href="index.html">Device</a>
+        </h1>
+        <div class="header-search-actions clearfix">
+          <!--Группа II - Форма поиска-->
+          <form class="form-search" action="#" method="get">
+            <input class="search icon-search" type="search" name="search" id="search" placeholder="Поиск по сайту">
+            <label class="visually-hidden" for="search">Поиск по сайту</label>
+            <button class="button-search" type="submit" value="search">Найти</button>
+          </form>
+          <!--Группа III - Действия пользователя-->
+          <div class="header-actions">
+            <a class="header-action header-action-user" href="/account">Валентин Петухов</a>
+            <a class="header-action" href="#">Сравнить</a>
+            <a class="header-action" href="#">Корзина</a>
+          </div>
         </div>
+        <!--Группа IV - Навигация-->
+        <nav class="header-main-nav">
+          <ul class="primary-menu">
+            <li class="primary-item"><a class="primary-link catalog-link" href="catalog.html">Каталог товаров</a>
+              <ul class="secondary-menu">
+                <li class="secondary-block">
+                  <ul>
+                    <li><a class="secondary-menu-link" href="#">Виртуальная реальность</a></li>
+                    <li><a class="secondary-menu-link" href="#">Моноподы для селфи</a></li>
+                    <li><a class="secondary-menu-link" href="#">Экшн-камеры</a></li>
+                  </ul>
+                </li>
+                <li class="secondary-block">
+                  <ul>
+                    <li><a class="secondary-menu-link" href="#">Фитнесс-браслеты</a></li>
+                    <li><a class="secondary-menu-link" href="#">Умные часы</a></li>
+                  </ul>
+                </li>
+                <li class="secondary-block">
+                  <ul>
+                    <li><a class="secondary-menu-link" href="#">Квадрокоптеры</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="primary-item"><a class="primary-link" href="#">Доставка</a></li>
+            <li class="primary-item"><a class="primary-link"  href="#">Гарантия</a></li>
+            <li class="primary-item"><a class="primary-link"  href="#">Контакты</a></li>
+          </ul>
+        </nav>
       </div>
-      <!--Группа IV - Навигация-->
-      <nav class="header-main-nav">
-        <ul class="primary-menu">
-          <li class="primary-item"><a class="primary-link catalog-link" href="catalog.html">Каталог товаров</a>
-            <ul class="secondary-menu">
-              <li class="secondary-block">
-                <ul>
-                  <li><a class="secondary-menu-link" href="#">Виртуальная реальность</a></li>
-                  <li><a class="secondary-menu-link" href="#">Моноподы для селфи</a></li>
-                  <li><a class="secondary-menu-link" href="#">Экшн-камеры</a></li>
-                </ul>
-              </li>
-              <li class="secondary-block">
-                <ul>
-                  <li><a class="secondary-menu-link" href="#">Фитнесс-браслеты</a></li>
-                  <li><a class="secondary-menu-link" href="#">Умные часы</a></li>
-                </ul>
-              </li>
-              <li class="secondary-block">
-                <ul>
-                  <li><a class="secondary-menu-link" href="#">Квадрокоптеры</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li class="primary-item"><a class="primary-link" href="#">Доставка</a></li>
-          <li class="primary-item"><a class="primary-link"  href="#">Гарантия</a></li>
-          <li class="primary-item"><a class="primary-link"  href="#">Контакты</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    </header>
+
 
 
 		<!--ОСНОВОЕ СОДЕРЖАНИЕ СТРАНИЦЫ "КАТАЛОГ" -->
@@ -151,7 +152,7 @@
                 </label>
     					</div>
     					<!--Подгруппа II.IV - Кнопка фильтра-->
-    					<button class="filter-show" type="submit" value="show">Показать</button>
+    					<a href="/writeus.html"  class="filter-show">Показать</a>
     				</form>
           </div>
 			  </section>
@@ -213,7 +214,7 @@
       						</div>
       					</a>
       				</article>
-      				<article class="item">
+      				<article class="item new-item">
       					<a href="#">
       						<div class="item-image">
       							<img src="img/item-4.jpg" width="360" height="380" alt="Селфи-палка Следуй за мной">
@@ -241,7 +242,6 @@
         </section>
       </div>
 		</main>
-
 
 
     <!--ФУТЕР-->

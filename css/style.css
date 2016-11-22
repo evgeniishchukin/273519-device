@@ -8,7 +8,7 @@ body {
 
 	padding: 0;
 
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", "Arial", sans-serif;
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 30px;
@@ -18,7 +18,7 @@ body {
 h1, h2 {
 	margin: 0;
 
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 47px;
 	font-weight: 800;
 	line-height: 1.2em;
@@ -29,7 +29,7 @@ h1, h2 {
 h3 {
 	margin: 0;
 
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 18px;
 	font-weight: 800;
 	line-height: 1.2em;
@@ -92,12 +92,13 @@ button {
 		margin-top: -11px;
 		margin-left: -100px;
 
+		display: block;
 		padding-top: 8px;
 		padding-bottom: 8px;
 		width: 200px;
 		height: 22px;
 
-		font-family: "Gilroy", sans-serif;
+		font-family: "Gilroy", "Arial", sans-serif;
 		font-size: 18px;
 		font-weight: 800;
 		line-height: 1.2em;
@@ -193,7 +194,7 @@ button {
 }
 
 .header-logo {
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 48px;
 	font-weight: 800;
 	line-height: 1em;
@@ -232,7 +233,7 @@ button {
 	font-size: 15px;
 	letter-spacing: 0.001em;
 
-	background-color: inherit;
+	background-color: transparent;
 
 	border: none;
 }
@@ -284,7 +285,7 @@ button {
 	width: 81px;
 	height: 45px;
 
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", "Arial", sans-serif;
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 36px;
@@ -327,7 +328,7 @@ button {
 
 	display: inline-block;
 
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", "Arial", sans-serif;
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 1em;
@@ -336,7 +337,7 @@ button {
 }
 
 .header-action:first-child {
-	margin-right: 236px;
+	margin-right: 239px;
 }
 
 .header-action:first-child::before {
@@ -354,7 +355,7 @@ button {
 }
 
 .header-action:nth-child(2) {
-	margin-right: 60px;
+	margin-right: 65px;
 }
 
 .header-action:nth-child(2)::before {
@@ -379,7 +380,7 @@ button {
 	content: "";
 	position: absolute;
 	top: 0;
-	left: -20px;
+	left: -22px;
 
 	width: 13px;
 	height: 12px;
@@ -429,7 +430,7 @@ button {
 }
 
 .primary-link {
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 18px;
 	font-weight: 800;
 	line-height: 1.2em;
@@ -499,7 +500,7 @@ button {
 	width: 1099px;
 	height: 140px;
 
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", "Arial", sans-serif;
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 36px;
@@ -630,6 +631,8 @@ button {
 	border-radius: 50%;
 	cursor: pointer;
 
+	-webkit-transition: border-color 0.2s;
+
 	transition: border-color 0.2s;
 }
 
@@ -670,6 +673,8 @@ button {
 
 	opacity: 0;
 
+	-webkit-transition: opacity 0.3s;
+
 	transition: opacity 0.3s;
 }
 
@@ -701,13 +706,16 @@ button {
 	width: 220px;
 	height: 22px;
 
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 18px;
 	font-weight: 800;
 	line-height: 1.2em;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	text-align: center;
+
+	-webkit-transition: background-color 0.2s,
+							color 0.2s;
 
 	transition: background-color 0.2s,
 							color 0.2s;
@@ -747,7 +755,7 @@ button {
 .slide-table-row1 {
 	display: table-row;
 
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 36px;
 	line-height: 1.2em;
 	letter-spacing: 0.001em;
@@ -826,7 +834,7 @@ button {
 	top: -93px;
 	right: -22px;
 
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 179.2px;
 	font-weight: 900;
 	line-height: 1em;
@@ -854,7 +862,7 @@ button {
 .catalog-sections {
 	margin-top: 113px;
 
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 18px;
 	font-weight: 800;
 	line-height: 1.2em;
@@ -940,7 +948,7 @@ button {
 /*Группа III - Дополнительные услуги (Слайдер) ------------------------------------------*/
 .services {
 	position: relative;
-	margin-top: 242px;
+	margin-top: 165px;
 }
 
 .services::before {
@@ -967,7 +975,7 @@ button {
 	float: left;
 	width: 160px;
 
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 18px;
 	font-weight: 800;
 	line-height: 1.2em;
@@ -999,6 +1007,9 @@ button {
 	color: #000000;
 
 	cursor: pointer;
+
+	-webkit-transition: background-color 0.2	s,
+							color 0.3s;
 
 	transition: background-color 0.2	s,
 							color 0.3s;
@@ -1116,6 +1127,8 @@ button {
 
 	opacity: 0;
 
+  -webkit-transition: opacity 0.3s;
+
   transition: opacity 0.3s;
 }
 
@@ -1136,7 +1149,9 @@ button {
 
 	vertical-align: top;
 
-	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+
+	        filter: grayscale(100%);
   opacity: 0.2;
 }
 
@@ -1150,7 +1165,8 @@ button {
 }
 
 .partner:hover {
-	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+	        filter: grayscale(0);
   opacity: 1;
 }
 
@@ -1202,7 +1218,7 @@ button {
 .transport-company li {
 	position: relative;
 
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 16px;
 	font-weight: 800;
 	line-height: 40px;
@@ -1233,7 +1249,7 @@ button {
 	width: 247px;
 	height: 22px;
 
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 18px;
 	font-weight: 800;
 	line-height: 1.2em;
@@ -1289,19 +1305,21 @@ button {
 	margin-left: 1px;
 }
 
-.button-map {
+.map {
 	position: relative;
 	margin-top: 39px;
 	margin-left: 3px;
 
 	display: block;
+
+	cursor: pointer;
 }
 
-.button-map:hover .button-image  {
+.map:hover .button-image  {
 	opacity: 0.7;
 }
 
-.button-map:hover .button-action {
+.map:hover .button-action {
 	opacity: 1;
 
 	z-index: 3;
@@ -1312,15 +1330,21 @@ button {
 	margin-top: 60px;
 	margin-left: 4px;
 
+	display: block;
+	padding-top: 11px;
+	padding-bottom: 11px;
 	width: 260px;
-	height: 40px;
+	height: 18px;
 
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 18px;
 	font-weight: 800;
-	line-height: 1.2em;
+	line-height: 1em;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
+	text-align: center;
+
+	cursor: pointer;
 }
 
 .button-write::before {
@@ -1351,13 +1375,16 @@ button {
 /*ОСНОВОЕ СОДЕРЖАНИЕ СТРАНИЦЫ "КАТАЛОГ"*/
 /*---------------------------------------------------------------------------------------*/
 .header-action.header-action-user {
-	margin-right: 85px;
+	position: relative;
+
+	margin-right: 152px;
 	color: #000000;
 }
 
 .header-action-user::after {
 	content: "Войти";
-	margin-left: 17px;
+	position: absolute;
+	right: -65px;
 
 	color: #cab97b;
 }
@@ -1390,7 +1417,7 @@ button {
 
 	display: inline-block;
 
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", "Arial", sans-serif;
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 36px;
@@ -1419,7 +1446,9 @@ button {
 
 	background-color: #000000;
 
-	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+
+	        transform: rotate(45deg);
 }
 
 .breadcrumbs-item:first-child::after,
@@ -1434,7 +1463,9 @@ button {
 
 	background-color: #000000;
 
-	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+
+	        transform: rotate(-45deg);
 }
 
 
@@ -1463,7 +1494,7 @@ button {
 	padding-right: 180px;
 	padding-bottom: 26px;
 
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 16px;
 	font-weight: 800;
 	line-height: 1.2em;
@@ -1629,7 +1660,9 @@ button {
 
 	opacity: 0;
 
-	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+
+	        transform: rotate(45deg);
 }
 
 .color-checkbox + .checkbox-indicator::after {
@@ -1645,7 +1678,9 @@ button {
 
 	opacity: 0;
 
-	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+
+	        transform: rotate(-45deg);
 }
 
 .color-checkbox:checked + .checkbox-indicator::before,
@@ -1766,16 +1801,22 @@ button {
 /*Подгруппа II.IV - Кнопка фильтра -------------------------------*/
 .filter-show {
 	position: relative;
-	width: 200px;
-	height: 40px;
 
-	font-family: "Gilroy", sans-serif;
+	display: block;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	width: 200px;
+	height: 18px;
+
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 18px;
 	font-weight: 800;
-	line-height: 1.2em;
+	line-height: 1em;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	text-align: center;
+
+	cursor: pointer;
 
 	z-index: 0;
 }
@@ -1849,7 +1890,7 @@ button {
 .sorting-list-item:first-child {
 	margin-right: 52px;
 
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 16px;
 	font-weight: 800;
 	line-height: 1.2em;
@@ -1956,7 +1997,7 @@ button {
 	margin-bottom: 0;
 }
 
-.item:nth-child(4)::before {
+.new-item::before {
 	content: "new";
 	position: absolute;
 	top: 57px;
@@ -1971,7 +2012,7 @@ button {
 	z-index: 1;
 }
 
-.item:nth-child(4)::after {
+.new-item::after {
 	content: "";
 	position: absolute;
 	top: 29px;
@@ -2016,7 +2057,7 @@ button {
 	float: right;
 	width: 90px;
 
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 21px;
@@ -2038,7 +2079,7 @@ button {
 
 	padding: 0;
 
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 16px;
 	font-weight: 800;
 	line-height: 1em;
@@ -2148,7 +2189,7 @@ button {
 
 	display: block;
 
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 48px;
 	font-weight: 800;
 	line-height: 1.2em;
@@ -2185,7 +2226,7 @@ button {
 
 	padding: 0;
 
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 18px;
 	font-weight: 800;
 	line-height: 1.2em;
@@ -2417,7 +2458,7 @@ button {
 .write-form {
 	padding-top: 43px;
 
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 18px;
 	line-height: 18px;
 	font-weight: 800;
@@ -2456,7 +2497,7 @@ button {
 	padding-bottom: 17px;
 	padding-left: 20px;
 
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", "Arial", sans-serif;
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 18px;
@@ -2479,8 +2520,16 @@ button {
 .form-name:focus,
 .form-mail:focus,
 .form-letter:focus {
+	padding-top: 12px;
+	padding-right: 17px;
+	padding-bottom: 14px;
+	padding-left: 17px;
+
 	background-color: #ffffff;
-	outline-color: #e5e5e5;
+
+	border: 3px solid #e5e5e5;
+
+	outline: none;
 }
 
 .form-block-name{
@@ -2512,7 +2561,7 @@ button {
 	width: 200px;
 	height: 40px;
 
-	font-family: "Gilroy", sans-serif;
+	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 18px;
 	font-weight: 800;
 	line-height: 1.2em;
@@ -2553,11 +2602,13 @@ button {
 
 .write-us-open {
 	display: block;
-	animation: bounce 0.6s;
+	-webkit-animation: bounce 0.6s;
+	        animation: bounce 0.6s;
 }
 
 .write-us-error {
-	animation: shake 0.6s;
+	-webkit-animation: shake 0.6s;
+	        animation: shake 0.6s;
 }
 
 /*II группа - Pop-up "Map-big"-----------------------------------------------------------*/
@@ -2632,11 +2683,13 @@ button {
 }
 
 .button-close-write::before {
-	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	        transform: rotate(45deg);
 }
 
 .button-close-write::after {
-	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
 }
 
 .button-close-write:hover {
@@ -2680,11 +2733,13 @@ button {
 }
 
 .button-close-map::before {
-	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	        transform: rotate(45deg);
 }
 
 .button-close-map::after {
-	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
 }
 
 .button-close-map:hover {
@@ -2702,15 +2757,27 @@ button {
 
 
 /*IV группа - Анимация pop-up'ов---------------------------------------------------------*/
+@-webkit-keyframes bounce {
+0% { -webkit-transform: translateY(-2000px); transform: translateY(-2000px); }
+70% { -webkit-transform: translateY(60px); transform: translateY(60px); }
+90% { -webkit-transform: translateY(-20px); transform: translateY(-20px); }
+100% { -webkit-transform: translateY(0); transform: translateY(0); }
+}
 @keyframes bounce {
-0% { transform: translateY(-2000px); }
-70% { transform: translateY(60px); }
-90% { transform: translateY(-20px); }
-100% { transform: translateY(0); }
+0% { -webkit-transform: translateY(-2000px); transform: translateY(-2000px); }
+70% { -webkit-transform: translateY(60px); transform: translateY(60px); }
+90% { -webkit-transform: translateY(-20px); transform: translateY(-20px); }
+100% { -webkit-transform: translateY(0); transform: translateY(0); }
+}
+
+@-webkit-keyframes shake {
+0%, 100% { -webkit-transform: translateX(0); transform: translateX(0); }
+10%, 30%, 50%, 70%, 90% { -webkit-transform: translateX(-10px); transform: translateX(-10px); }
+20%, 40%, 60%, 80% { -webkit-transform: translateX(10px); transform: translateX(10px); }
 }
 
 @keyframes shake {
-0%, 100% { transform: translateX(0); }
-10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
-20%, 40%, 60%, 80% { transform: translateX(10px); }
+0%, 100% { -webkit-transform: translateX(0); transform: translateX(0); }
+10%, 30%, 50%, 70%, 90% { -webkit-transform: translateX(-10px); transform: translateX(-10px); }
+20%, 40%, 60%, 80% { -webkit-transform: translateX(10px); transform: translateX(10px); }
 }

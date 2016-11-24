@@ -2,9 +2,11 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="address=no"/>
     <title>Девайс - Каталог</title>
     <link rel="stylesheet" href="css/normalize.css">
-	  <link rel="stylesheet" href="css/style.min.css">
+	  <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
@@ -78,7 +80,7 @@
           <ul class="breadcrumbs-list">
     				<li class="breadcrumbs-item"><a class="breadcrumbs-page" href="#">Главная</a></li>
     				<li class="breadcrumbs-item"><a class="breadcrumbs-page" href="#">Каталог товаров</a></li>
-    				<li class="breadcrumbs-item"><a class="breadcrumbs-page" href="#">Моноподы для селфи</a></li>
+    				<li class="breadcrumbs-item">Моноподы для селфи</li>
          </ul>
   			</div>
       </div>
@@ -90,7 +92,7 @@
           <h2 class="visually-hidden">Фильтр по товарам</h2>
           <div class="filter-name">Фильтр:</div>
           <div class="filter-float">
-    				<form class="filter-form" action="#" method="get">
+    				<form class="filter-form" action=".filter.html" method="get">
     					<!--Подгруппа II.I - Выбор цены-->
     					<div class="filter-price">
     						<h3>Стоимость</h3>
@@ -113,22 +115,22 @@
                   <input class="color-checkbox" type="checkbox" name="color_black" id="color_black" value="black" checked>
                   <span class="checkbox-indicator"></span>
     						  Черный
-                </label><Br>
+                </label>
     						<label class="color-label"  for="color_white">
                   <input class="color-checkbox" type="checkbox" name="color_white" id="color_white"  value="white">
     						  <span class="checkbox-indicator"></span>
                   Белый
-                </label><Br>
+                </label>
     						<label class="color-label"  for="color_darkblue">
                   <input class="color-checkbox" type="checkbox" name="color_darkblue" id="color_darkblue"  value="darkblue" checked>
     						  <span class="checkbox-indicator"></span>
                   Синий
-                </label><Br>
+                </label>
     						<label class="color-label"  for="color_red">
                   <input class="color-checkbox" type="checkbox" name="color_red" id="color_red"  value="red" checked>
     						  <span class="checkbox-indicator"></span>
                   Красный
-                </label><Br>
+                </label>
     						<label class="color-label"  for="color_pink">
                   <input class="color-checkbox" type="checkbox" name="color_pink" id="color_pink"  value="pink">
                   <span class="checkbox-indicator"></span>
@@ -142,7 +144,7 @@
                   <input class="bluetooth-radio" type="radio" name="bluetooth" id="bluetooth" value="bluetooth" checked>
     						  <span class="radio-indicator"></span>
                   Есть
-                </label><Br>
+                </label>
     						<label class="bluetooth-label" for="nobluetooth">
                   <input class="bluetooth-radio" type="radio" name="bluetooth" id="nobluetooth" value="nobluetooth">
                   <span class="radio-indicator"></span>
@@ -150,7 +152,7 @@
                 </label>
     					</div>
     					<!--Подгруппа II.IV - Кнопка фильтра-->
-    					<a href="/writeus.html"  class="filter-show">Показать</a>
+              <button class="filter-show" type="submit" value="show">Показать</button>
     				</form>
           </div>
 			  </section>
@@ -174,60 +176,60 @@
             <!--Подгруппа III.II - Элементы сортировки-->
     				<div class="sorting-items clearfix">
       				<article class="item">
-      					<a href="#">
-      						<div class="item-image">
-      							<img src="img/item-1.jpg" width="360" height="380" alt="Любительская селфи-палка">
-                    <div class="button-action">В корзину</div>
-                    <div class="button-action2">Добавить к сравнению</div>
-      						</div>
-      						<div class="item-text clearfix">
-      							<h3 class="item-name">Любительская селфи-палка</h3>
-      							<p class="item-price">500 руб.</p>
-      						</div>
-      					</a>
+    						<div class="item-image">
+    							<img src="img/item-1.jpg" width="360" height="380" alt="Любительская селфи-палка">
+                  <div class="button-action">В корзину</div>
+                  <div class="button-action2">Добавить к сравнению</div>
+    						</div>
+    						<div class="item-text clearfix">
+    							<a href="/item1-page.html">
+                    <h3 class="item-name">Любительская селфи-палка</h3>
+                  </a>
+    							<p class="item-price">500 руб.</p>
+    						</div>
       				</article>
       				<article class="item">
-      					<a href="#">
-      						<div class="item-image">
-      							<img src="img/item-2.jpg" width="360" height="380" alt="Профессиональная селфи-палка">
-                    <div class="button-action">В корзину</div>
-                    <div class="button-action2">Добавить к сравнению</div>
-      						</div>
-      						<div class="item-text">
-      							<h3 class="item-name">Профессиональная<br> селфи-палка</h3>
-      							<p class="item-price">1 500 руб.</p>
-      						</div>
-      					</a>
+    						<div class="item-image">
+    							<img src="img/item-2.jpg" width="360" height="380" alt="Профессиональная селфи-палка">
+                  <div class="button-action">В корзину</div>
+                  <div class="button-action2">Добавить к сравнению</div>
+    						</div>
+    						<div class="item-text">
+    							<a href="/item2-page.html">
+                    <h3 class="item-name">Профессиональная<br> селфи-палка</h3>
+                  </a>
+    							<p class="item-price">1 500 руб.</p>
+    						</div>
       				</article>
       				<article class="item">
-      					<a href="#">
-      						<div class="item-image">
-      							<img src="img/item-3.jpg" width="360" height="380" alt="Непотопляемая селфи-палка">
-                    <div class="button-action">В корзину</div>
-                    <div class="button-action2">Добавить к сравнению</div>
-      						</div>
-      						<div class="item-text">
-      							<h3 class="item-name">Непотопляемая селфи-палка</h3>
-      							<p class="item-price">2 500 руб.</p>
-      						</div>
-      					</a>
+    						<div class="item-image">
+    							<img src="img/item-3.jpg" width="360" height="380" alt="Непотопляемая селфи-палка">
+                  <div class="button-action">В корзину</div>
+                  <div class="button-action2">Добавить к сравнению</div>
+    						</div>
+    						<div class="item-text">
+    							<a href="/item3-page.html">
+                    <h3 class="item-name">Непотопляемая селфи-палка</h3>
+                  </a>
+    							<p class="item-price">2 500 руб.</p>
+    						</div>
       				</article>
       				<article class="item new-item">
-      					<a href="#">
-      						<div class="item-image">
-      							<img src="img/item-4.jpg" width="360" height="380" alt="Селфи-палка Следуй за мной">
-                    <div class="button-action">В корзину</div>
-                    <div class="button-action2">Добавить к сравнению</div>
-      						</div>
-      						<div class="item-text">
-      							<h3 class="item-name">Селфи-палка &laquo;Следуй за мной&raquo;</h3>
-      							<p class="item-price">4 900 руб.</p>
-      						</div>
-      					</a>
+    						<div class="item-image">
+    							<img src="img/item-4.jpg" width="360" height="380" alt="Селфи-палка Следуй за мной">
+                  <div class="button-action">В корзину</div>
+                  <div class="button-action2">Добавить к сравнению</div>
+    						</div>
+    						<div class="item-text">
+    							<a href="/item4-page.html">
+                    <h3 class="item-name">Селфи-палка &laquo;Следуй за мной&raquo;</h3>
+                  </a>
+    							<p class="item-price">4 900 руб.</p>
+    						</div>
       				</article>
             </div>
       			<!--Подгруппа III.III - Пагинатор-->
-    				<div class="paginator">
+    				<div class="paginator clearfix">
     					<ul class="paginator-list">
     						<li class="paginator-item"><a class="paginator-link" href="#">Назад</a></li>
     						<li class="paginator-item"><a class="paginator-link" href="#">1</a></li>

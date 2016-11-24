@@ -2,9 +2,11 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="address=no"/>
     <title>Девайс - Главная</title>
     <link rel="stylesheet" href="css/normalize.css">
-	  <link rel="stylesheet" href="css/style.min.css">
+	  <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
@@ -82,8 +84,13 @@
             <!--Подгруппа I.II.I - Текстовая информация слайдов-->
     				<div class="slide-info">
     					<h2>Делай селфи, <br> как Бен Стиллер!</h2>
-    					<p class="slide-paragraph">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
+    					<p class="slide-paragraph">Самая длинная палка для селфи доступна в нашем магазине. <br> Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
     					<a class="slide-more" href="#">Подробнее</a>
+              <div class="slider-controls">
+                <label class="slider-label" for="btn-1"></label>
+                <label class="slider-label" for="btn-2"></label>
+                <label class="slider-label" for="btn-3"></label>
+              </div>
               <div class="slide-table">
                 <div class="slide-table-row1">
                     <div class="slide-table-cell">8,5 м</div>
@@ -108,6 +115,11 @@
     					<h2>Худеем <br> правильно!</h2>
     					<p class="slide-paragraph">Мотивирующие фитнесс-браслеты помогут найти в себе силы <br> не пропускать занятия и соблюдать диету.</p>
     					<a class="slide-more" href="#">Подробнее</a>
+              <div class="slider-controls">
+                <label class="slider-label" for="btn-1"></label>
+                <label class="slider-label" for="btn-2"></label>
+                <label class="slider-label" for="btn-3"></label>
+              </div>
               <div class="slide-table">
                 <div class="slide-table-row1">
                     <div class="slide-table-cell">48 часов</div>
@@ -123,11 +135,16 @@
             </div>
           </div>
           <div class="slide3 clearfix">
-            <!--Подгруппа I.II.I - Текстовая информация слайдов-->
+            <!--Подгруппа I.II.III - Текстовая информация слайдов-->
     				<div class="slide-info">
     					<h2>Порхает как бабочка, жалит как пчела!</h2>
     					<p class="slide-paragraph">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером замаскированным под стандартную камеру</p>
     					<a class="slide-more" href="#">Подробнее</a>
+              <div class="slider-controls">
+                <label class="slider-label" for="btn-1"></label>
+                <label class="slider-label" for="btn-2"></label>
+                <label class="slider-label" for="btn-3"></label>
+              </div>
               <div class="slide-table">
                 <div class="slide-table-row1">
                     <div class="slide-table-cell">800 м</div>
@@ -139,17 +156,11 @@
                 </div>
               </div>
             </div>
-            <!--Подгруппа I.II.II - Изображения слайдов-->
+            <!--Подгруппа I.II.IV - Изображения слайдов-->
             <div class="slide-img">
               <img class="slide-img3" src="img/slider-3.png" width="526" height="334" alt="Квадракоптер">
             </div>
           </div>
-        <!--Подгруппа I.I - Кнопкпи управления слайдером-->
-        <div class="slider-controls">
-					<label class="slider-label" for="btn-1"></label>
-					<label class="slider-label" for="btn-2"></label>
-					<label class="slider-label" for="btn-3"></label>
-				</div>
 			</section>
 
 			<!--Группа II - Дополнительная навигация по каталогу-->
@@ -334,8 +345,8 @@
       			<input type="text" class="form-mail" name="e-mail" id="e-mail" placeholder="Для отправки ответа">
           </div>
           <div class="form-block-textarea">
-      			<label for="letter">Текст письма:</label><br>
-      			<textarea name="letter" class="form-letter" id="letter" placeholder="В свободной форме"></textarea><br>
+      			<label for="letter">Текст письма:</label>
+      			<textarea name="letter" class="form-letter" id="letter" placeholder="В свободной форме"></textarea>
       			<button type="submit" class="form-submit" value="submit">Отправить</button>
           </div>
         </div>

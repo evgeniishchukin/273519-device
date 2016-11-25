@@ -1500,8 +1500,6 @@ button {
 	letter-spacing: 0.001em;
   color: #d1d1d1;
 	vertical-align: top;
-
-  cursor: pointer;
 }
 
 .breadcrumbs-page {
@@ -1512,8 +1510,7 @@ button {
 	color: #8b8b8b;
 }
 
-.breadcrumbs-item:active .breadcrumbs-page,
-.breadcrumbs-item:active {
+.breadcrumbs-page:active {
 	color: #eeeeee;
 }
 
@@ -1998,9 +1995,8 @@ button {
   position: relative;
 
 	padding-top: 27px;
-	padding-bottom: 27px;
+	padding-bottom: 43px;
 	padding-left: 72px;
-  height: 16px;
   width: 760px;
 
 	background: #ebebeb;
@@ -2013,10 +2009,8 @@ button {
   left: 832px;
 
   padding-top: 27px;
-  padding-bottom: 27px;
-  padding-left: 72px;
+	padding-bottom: 43px;
   width: 100vw;
-  height: 16px;
 
   background-color: #ebebeb;
 }
@@ -2040,6 +2034,7 @@ button {
 
   float: left;
 	padding: 0;
+  max-width: 450px;
 
 	list-style: none;
 }

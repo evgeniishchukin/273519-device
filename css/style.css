@@ -1995,21 +1995,20 @@ button {
   position: relative;
 
 	padding-top: 27px;
-	padding-bottom: 43px;
+	padding-bottom: 13px;
 	padding-left: 72px;
   width: 760px;
 
 	background: #ebebeb;
 }
 
-.sorting-type::after {
+.sorting-type::before {
   content: "";
   position: absolute;
   top: 0;
   left: 832px;
 
-  padding-top: 27px;
-	padding-bottom: 43px;
+  height: 100%;
   width: 100vw;
 
   background-color: #ebebeb;
@@ -2018,7 +2017,7 @@ button {
 .sorting-header {
   margin-right: 55px;
 
-  float: left;
+  display: inline-block;
 
   font-family: "Gilroy", "Arial", sans-serif;
   font-size: 16px;
@@ -2026,15 +2025,18 @@ button {
   line-height: 1em;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  vertical-align: top;
   color: #000000;
 }
 
 .sorting-list {
 	margin: 0;
 
-  float: left;
+  display: inline-block;
 	padding: 0;
   max-width: 450px;
+
+  vertical-align: top;
 
 	list-style: none;
 }
@@ -2072,8 +2074,11 @@ button {
 .sorting-arrow-block {
   margin-right: 2px;
 
+  display: inline-block;
   float: right;
   width: 60px;
+
+  vertical-align: top;
 }
 
 .sorting-arrow {

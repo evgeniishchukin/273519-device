@@ -6,61 +6,61 @@
 /*I группа - Open Sans ------------------------------------------------------------------*/
 @font-face {
     font-family: 'Open Sans';
-    src: local('Open Sans Light'), local('OpenSans-Light'), url('http://64424.selcdn.ru/webfonts/opensans/300.woff2') format('woff2'), url('http://64424.selcdn.ru/webfonts/opensans/300.woff') format('woff');
+    src: local('Open Sans Light'), local('OpenSans-Light'), url('https://64424.selcdn.ru/webfonts/opensans/300.woff2') format('woff2'), url('https://64424.selcdn.ru/webfonts/opensans/300.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'Open Sans';
-    src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url('http://64424.selcdn.ru/webfonts/opensans/300i.woff2') format('woff2'), url('http://64424.selcdn.ru/webfonts/opensans/300i.woff') format('woff');
+    src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url('https://64424.selcdn.ru/webfonts/opensans/300i.woff2') format('woff2'), url('https://64424.selcdn.ru/webfonts/opensans/300i.woff') format('woff');
     font-weight: 300;
     font-style: italic;
 }
 @font-face {
     font-family: 'Open Sans';
-    src: local('Open Sans'), local('OpenSans'), url('http://64424.selcdn.ru/webfonts/opensans/400.woff2') format('woff2'), url('http://64424.selcdn.ru/webfonts/opensans/400.woff') format('woff');
+    src: local('Open Sans'), local('OpenSans'), url('https://64424.selcdn.ru/webfonts/opensans/400.woff2') format('woff2'), url('https://64424.selcdn.ru/webfonts/opensans/400.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'Open Sans';
-    src: local('Open Sans Italic'), local('OpenSans-Italic'), url('http://64424.selcdn.ru/webfonts/opensans/400i.woff2') format('woff2'), url('http://64424.selcdn.ru/webfonts/opensans/400i.woff') format('woff');
+    src: local('Open Sans Italic'), local('OpenSans-Italic'), url('https://64424.selcdn.ru/webfonts/opensans/400i.woff2') format('woff2'), url('https://64424.selcdn.ru/webfonts/opensans/400i.woff') format('woff');
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
     font-family: 'Open Sans';
-    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('http://64424.selcdn.ru/webfonts/opensans/600.woff2') format('woff2'), url('http://64424.selcdn.ru/webfonts/opensans/600.woff') format('woff');
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('https://64424.selcdn.ru/webfonts/opensans/600.woff2') format('woff2'), url('https://64424.selcdn.ru/webfonts/opensans/600.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: 'Open Sans';
-    src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url('http://64424.selcdn.ru/webfonts/opensans/600i.woff2') format('woff2'), url('http://64424.selcdn.ru/webfonts/opensans/600i.woff') format('woff');
+    src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url('https://64424.selcdn.ru/webfonts/opensans/600i.woff2') format('woff2'), url('https://64424.selcdn.ru/webfonts/opensans/600i.woff') format('woff');
     font-weight: 600;
     font-style: italic;
 }
 @font-face {
     font-family: 'Open Sans';
-    src: local('Open Sans Bold'), local('OpenSans-Bold'), url('http://64424.selcdn.ru/webfonts/opensans/700.woff2') format('woff2'), url('http://64424.selcdn.ru/webfonts/opensans/700.woff') format('woff');
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url('https://64424.selcdn.ru/webfonts/opensans/700.woff2') format('woff2'), url('https://64424.selcdn.ru/webfonts/opensans/700.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: 'Open Sans';
-    src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url('http://64424.selcdn.ru/webfonts/opensans/700i.woff2') format('woff2'), url('http://64424.selcdn.ru/webfonts/opensans/700i.woff') format('woff');
+    src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url('https://64424.selcdn.ru/webfonts/opensans/700i.woff2') format('woff2'), url('https://64424.selcdn.ru/webfonts/opensans/700i.woff') format('woff');
     font-weight: 700;
     font-style: italic;
 }
 @font-face {
     font-family: 'Open Sans';
-    src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url('http://64424.selcdn.ru/webfonts/opensans/800.woff2') format('woff2'), url('http://64424.selcdn.ru/webfonts/opensans/800.woff') format('woff');
+    src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url('https://64424.selcdn.ru/webfonts/opensans/800.woff2') format('woff2'), url('https://64424.selcdn.ru/webfonts/opensans/800.woff') format('woff');
     font-weight: 800;
     font-style: normal;
 }
 @font-face {
     font-family: 'Open Sans';
-    src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url('http://64424.selcdn.ru/webfonts/opensans/800i.woff2') format('woff2'), url('http://64424.selcdn.ru/webfonts/opensans/800i.woff') format('woff');
+    src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url('https://64424.selcdn.ru/webfonts/opensans/800i.woff2') format('woff2'), url('https://64424.selcdn.ru/webfonts/opensans/800i.woff') format('woff');
     font-weight: 800;
     font-style: italic;
 }
@@ -69,13 +69,13 @@
 /*II группа - Gilroy ------------------------------------------------------------------*/
 @font-face {
     font-family: 'Gilroy';
-    src: local('Gilroy Light'), local('Gilroy-Light'), url('http://64424.selcdn.ru/webfonts/gilroy/300.woff2') format('woff2'), url('http://64424.selcdn.ru/webfonts/gilroy/300.woff') format('woff');
+    src: local('Gilroy Light'), local('Gilroy-Light'), url('https://64424.selcdn.ru/webfonts/gilroy/300.woff2') format('woff2'), url('https://64424.selcdn.ru/webfonts/gilroy/300.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'Gilroy';
-    src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'), url('http://64424.selcdn.ru/webfonts/gilroy/800.woff2') format('woff2'), url('http://64424.selcdn.ru/webfonts/gilroy/800.woff') format('woff');
+    src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'), url('https://64424.selcdn.ru/webfonts/gilroy/800.woff2') format('woff2'), url('https://64424.selcdn.ru/webfonts/gilroy/800.woff') format('woff');
     font-weight: 800;
     font-style: normal;
 }
@@ -666,7 +666,7 @@ button {
 	position: relative;
 
 	width: 1100px;
-	min-height: 481px;
+	min-height: 550px;
 }
 
 .slider::before {
@@ -678,6 +678,8 @@ button {
 	min-height: 112px;
 
 	background-color: #f7e296;
+
+  z-index: -1;
 }
 
 .slider::after {
@@ -701,6 +703,8 @@ button {
 	position: relative;
 	top: -37px;
 	left: 403px;
+
+  width: 80px;
 
 	z-index: 2;
 }
@@ -737,17 +741,17 @@ button {
 }
 
 #btn-1:checked ~ .slide1 {
-    opacity: 1;
-		z-index: 1;
+    display: block;
+		z-index: block;
 }
 
 #btn-2:checked ~ .slide2  {
-    opacity: 1;
+    display: block;
 		z-index: 1;
 }
 
 #btn-3:checked ~ .slide3 {
-  	opacity: 1;
+  	display: block;
 		z-index: 1;
 }
 
@@ -755,19 +759,14 @@ button {
 .slide1,
 .slide2,
 .slide3 {
-	position: absolute;
-
-	opacity: 0;
-
-	-webkit-transition: opacity 0.3s;
-
-	transition: opacity 0.3s;
+	display: none;
 }
 
 /*Подгруппа I.II.I - Текстовая информация слайдов*/
 .slide-info {
 	position: relative;
-	margin-top: 51px;
+	margin-top: 81px;
+  margin-right: 40px;
 	margin-left: 1px;
 
 	float: right;
@@ -890,7 +889,6 @@ button {
 }
 
 .slide-img1 {
-	margin-top: -30px;
 	margin-left: -21px;
 }
 
@@ -899,7 +897,6 @@ button {
 }
 
 .slide-img2 {
-	margin-top: -30px;
 	margin-left: -9px;
 }
 
@@ -908,7 +905,6 @@ button {
 }
 
 .slide-img3 {
-	margin-top: -30px;
 	margin-left: 1px;
 }
 
@@ -946,7 +942,7 @@ button {
 
 /*Группа II - Дополнительная навигация по каталогу --------------------------------------*/
 .catalog-sections {
-	margin-top: 113px;
+	margin-top: 44px;
   margin-bottom: 165px;
 
 	font-size: 0;
@@ -1046,7 +1042,7 @@ button {
 	top: 20px;
 
 	width: 100%;
-	height: 288px;
+	height: 100%;
 
 	background-color: #e5e5e5;
 
@@ -1167,17 +1163,17 @@ button {
 }
 
 #btn-4:checked ~ .services-inner .service1 {
-    opacity: 1;
+    display: block;
 		z-index: 1;
 }
 
 #btn-5:checked ~ .services-inner .service2  {
-    opacity: 1;
+    display: block;
 		z-index: 1;
 }
 
 #btn-6:checked ~ .services-inner .service3 {
-  	opacity: 1;
+  	display: block;
 		z-index: 1;
 }
 
@@ -1187,6 +1183,7 @@ button {
 	margin-top: -11px;
 
 	float: right;
+  padding-bottom: 110px;
 	width:820px;
 }
 
@@ -1210,21 +1207,15 @@ button {
 .service1,
 .service2,
 .service3 {
-	position: absolute;
+  display: none;
 
 	width: 754px;
-
-	opacity: 0;
-
-  -webkit-transition: opacity 0.3s;
-
-  transition: opacity 0.3s;
 }
 
 
 /*Группа IV - Партнеры ------------------------------------------------------------------*/
 .partners-list {
-	margin-top: 210px;
+	margin-top: 114px;
 
 	font-size: 0;
 }
@@ -1242,11 +1233,6 @@ button {
 
 	        filter: grayscale(100%);
   opacity: 0.2;
-}
-
-.partner:nth-child(3) {
- margin-right: 37px;
-
 }
 
 .partner:nth-child(4n+1) {
@@ -1522,8 +1508,7 @@ button {
   color: #d1d1d1;
 }
 
-.breadcrumbs-item:hover .breadcrumbs-page,
-.breadcrumbs-item:hover {
+.breadcrumbs-page:hover {
 	color: #8b8b8b;
 }
 
@@ -1568,40 +1553,91 @@ button {
 
 
 /*Группа II - Блок фильтра --------------------------------------------------------------*/
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
 .filter-sorting {
-	max-width: 1440px;
-	width: 100%;
+  position: relative;
+
+  display: table;
+
+	width: 1160px;
 	margin: 0 auto;
+}
+
+.filter-sorting::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 1160px;
+
+  width: 100vw;
+  height: 100%;
+
+  background-color: #efefef;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+
+  vertical-align: top;
+}
+
+.table-cell:first-child {
+  background-color: #efefef;
 }
 
 .filter {
 	float: left;
-	padding-bottom: 514px;
-	width: 32.5%;
-
-	background-color: #efefef;
+	width: 330px;
 }
 
 .filter-float {
 	float: right;
 	width: 270px;
+
+  background-color: #efefef;
 }
 
 .filter-name {
-	padding-top: 25px;
+  position: relative;
+
+  float:right;
+	padding-top: 27px;
 	padding-right: 180px;
-	padding-bottom: 26px;
+	padding-bottom: 27px;
+  width: 90px;
+  height: 16px;
 
 	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 16px;
 	font-weight: 800;
-	line-height: 1.2em;
+	line-height: 1em;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	text-align: right;
 	color: #000000;
 
 	background-color: #dbdbdb;
+}
+
+.filter-name::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 270px;
+
+  padding-top: 27px;
+	padding-bottom: 27px;
+  width: 100vw;
+  height: inherit;
+
+  background-color: #dbdbdb;
 }
 
 /*Подгруппа II.I - Выбор цены ------------------------------------*/
@@ -1717,7 +1753,7 @@ button {
 .color-label {
 	position: relative;
 
-	display: inline-block;
+	display: block;
 	padding-left: 38px;
 
 	font-size: 14px;
@@ -1830,7 +1866,7 @@ button {
 .bluetooth-label {
 	position: relative;
 
-	display: inline-block;
+	display: block;
 	padding-left: 38px;
 
 	font-size: 14px;
@@ -1947,7 +1983,7 @@ button {
 /*Группа III - Блоксортировки -----------------------------------------------------------*/
 .sorting {
 	float: right;
-	width: 67.5%;
+	width: 830px;
 }
 
 .sorting-float {
@@ -1959,116 +1995,138 @@ button {
 
 /*Подгруппа III.I - Типы сортировки -----------------------------*/
 .sorting-type {
-	padding-top: 25px;
-	padding-bottom: 15px;
+  position: relative;
+
+	padding-top: 27px;
+	padding-bottom: 27px;
 	padding-left: 72px;
-  min-width: 760px;
+  height: 16px;
+  width: 760px;
 
 	background: #ebebeb;
+}
+
+.sorting-type::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 832px;
+
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 72px;
+  width: 100vw;
+  height: 16px;
+
+  background-color: #ebebeb;
+}
+
+.sorting-header {
+  margin-right: 55px;
+
+  float: left;
+
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
 }
 
 .sorting-list {
 	margin: 0;
 
+  float: left;
 	padding: 0;
-	width: 760px;
 
 	list-style: none;
 }
 
 .sorting-list-item {
-	margin-right: 25px;
+	margin-right: 27px;
 
 	display: inline-block;
 
 	font-size: 14px;
-	line-height: 18px;
+	line-height: 14px;
 	vertical-align: top;
-}
-
-.sorting-list-item:first-child {
-	margin-right: 52px;
-
-	font-family: "Gilroy", "Arial", sans-serif;
-	font-size: 16px;
-	font-weight: 800;
-	line-height: 1.2em;
-	letter-spacing: 0.2em;
-	text-transform: uppercase;
-	color: #000000;
 }
 
 .sorting-action  {
 	color: #c0c0c0;
 }
 
-.sorting-list-item:nth-child(2) .sorting-action {
+.sorting-list-item:first-child .sorting-action {
 	color: #000000;
 }
 
-.sorting-list-item:nth-child(n+2):nth-child(-n+4):hover .sorting-action {
+.sorting-list-item:hover .sorting-action {
 	color: #8b8b8b;
 }
 
-.sorting-list-item:nth-child(n+2):nth-child(-n+4) .sorting-action:active {
+.sorting-list-item:active .sorting-action {
 	color: #000000;
-}
-
-.sorting-list-item:nth-child(4) {
-	margin-right: 217px;
-}
-
-.sorting-list-item:nth-child(5) {
-	margin-right: 19px;
 }
 
 .sorting-list-item:last-child {
 	margin-right: 0;
 }
 
+.sorting-arrow-block {
+  margin-right: 2px;
+
+  float: right;
+  width: 60px;
+}
+
 .sorting-arrow {
-    font-size: 0;
+  position: relative;
+
+  font-size: 0;
+
+  border: 9px solid #cccccc;
+  border-right-color: transparent;
+  border-left-color: transparent;
 }
 
-.sorting-arrow::before {
-    content: "";
 
-		display: inline-block;
+.sorting-arrow-up {
+  bottom: 18px;
+  margin-right: 20px;
 
-		border: 9px solid #cccccc;
-    border-right-color: transparent;
-    border-left-color: transparent;
+  border-top-width: 0;
 }
 
-.sorting-arrow-up::before {
-    border-top-width: 0;
-}
-
-.sorting-arrow-up.active::before {
-		border-bottom-color: #000000;
-}
-
-.sorting-arrow-down::before {
-    border-bottom-width: 0;
-}
-
-.sorting-arrow-down.active::before {
-		border-top-color: #000000;
-}
-
-.sorting-arrow-up:hover::before {
-	border-bottom-color: #999999;
-}
-
-.sorting-arrow-down:hover::before {
-	border-top-color: #999999;
-}
-
-.sorting-arrow-up:active::before {
+.sorting-arrow-up.active {
 	border-bottom-color: #000000;
 }
 
-.sorting-arrow-down:active::before {
+.sorting-arrow-down {
+  top: -9px;
+  right: -2px;
+
+  border-bottom-width: 0;
+}
+
+.sorting-arrow-down.active {
+	border-top-color: #000000;
+}
+
+.sorting-arrow-up:hover {
+	border-bottom-color: #999999;
+}
+
+.sorting-arrow-down:hover {
+	border-top-color: #999999;
+}
+
+.sorting-arrow-up:active{
+	border-bottom-color: #000000;
+}
+
+.sorting-arrow-down:active {
 	border-top-color: #000000;
 }
 
@@ -2179,6 +2237,7 @@ button {
 	padding: 0;
 
   font-size: 0;
+  text-align: center;
 
 	list-style: none;
 }
@@ -2186,7 +2245,7 @@ button {
 .paginator-item {
   margin-right: 17px;
 
-  float: left;
+  display: inline-block;
 	padding-top: 27px;
 	padding-bottom: 27px;
 	min-width: 20px;
@@ -2197,7 +2256,7 @@ button {
   line-height: 1em;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-	text-align: center;
+  vertical-align: middle;
 }
 
 .paginator-link {
@@ -2205,8 +2264,9 @@ button {
 }
 
 .paginator-item:first-child {
-	margin-right: 207px;
+	margin-right: 17px;
 
+  float: left;
 	width: 126px;
 }
 
@@ -2305,7 +2365,7 @@ button {
 /*Группа III - Параметры второго блока---------------------------------------------------*/
 .footer-block-navigation {
 	float: left;
-	width: 550px;
+	width: 560px;
 }
 
 .footer-main-nav {
@@ -2319,6 +2379,14 @@ button {
 
 	padding: 0;
 
+  font-size: 0;
+}
+
+.footer-nav-item {
+  margin-right: 44px;
+
+	display: inline-block;
+
 	font-family: "Gilroy", "Arial", sans-serif;
 	font-size: 18px;
 	font-weight: 800;
@@ -2326,20 +2394,15 @@ button {
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	list-style: none;
-}
-
-.footer-nav-item {
-	display: inline-block;
-
 	vertical-align: top;
 }
 
-.footer-nav-item:first-child {
-	margin-right: 26px;
+.footer-nav-item:nth-child(2n+1) {
+	margin-right: 35px;
 }
 
-.footer-nav-item:nth-child(2) {
-	margin-right: 36px;
+.footer-nav-item:nth-child(3n) {
+	margin-right: 0;
 }
 
 .footer-nav-link {
@@ -2355,7 +2418,7 @@ button {
 }
 
 .social {
-	margin-top: 62px;
+	margin-top: 53px;
 	margin-left: 246px;
 
 	width: 153px;
@@ -2408,7 +2471,7 @@ button {
 	margin-top: 5px;
 
 	float: right;
-	width: 350px;
+	width: 340px;
 
 	text-align: right;
 }
